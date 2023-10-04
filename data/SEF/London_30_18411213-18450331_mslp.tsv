@@ -1,0 +1,78 @@
+SEF	1.0.0
+ID	30
+Name	William Rogerson
+Lat	51.48
+Lon	0
+Alt	25
+Source	London
+Link	
+Vbl	mslp
+Stat	point
+Units	hPa
+Meta	
+Year	Month	Day	Hour	Minute	Period	Value	Meta
+1841	12	13	15	0	0	994	orig=29.25inHg|slp_cor=2.94hPa|drybulb_temp=15C|qc=0|Adjusted=Y|Correction=+0.57hPa
+1843	12	31	9	0	0	1018.2	orig=29.96inHg|slp_cor=3.1hPa|drybulb_temp=6.8C|qc=0|Adjusted=Y|Correction=+0.57hPa
+1843	12	31	15	0	0	1015.2	orig=29.87inHg|slp_cor=3.09hPa|drybulb_temp=6.8C|qc=0|Adjusted=Y|Correction=+0.62hPa
+1845	3	1	9	0	0	1016.2	orig=29.9inHg|slp_cor=3.15hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.55hPa
+1845	3	1	15	0	0	1015.6	orig=29.88inHg|slp_cor=3.15hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.63hPa
+1845	3	2	9	0	0	1014.2	orig=29.84inHg|slp_cor=3.15hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.58hPa
+1845	3	2	15	0	0	1013.5	orig=29.82inHg|slp_cor=3.14hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.56hPa
+1845	3	3	9	0	0	1006.7	orig=29.62inHg|slp_cor=3.12hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.56hPa
+1845	3	3	15	0	0	1006	orig=29.6inHg|slp_cor=3.12hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.54hPa
+1845	3	4	9	0	0	1014.9	orig=29.86inHg|slp_cor=3.15hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.6hPa
+1845	3	4	15	0	0	1015.6	orig=29.88inHg|slp_cor=3.15hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.63hPa
+1845	3	5	9	0	0	1016.9	orig=29.92inHg|slp_cor=3.16hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.57hPa
+1845	3	5	15	0	0	1018.3	orig=29.96inHg|slp_cor=3.16hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.61hPa
+1845	3	6	9	0	0	1024.7	orig=30.15inHg|slp_cor=3.18hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.55hPa
+1845	3	6	15	0	0	1025.4	orig=30.17inHg|slp_cor=3.18hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.57hPa
+1845	3	7	9	0	0	1026.4	orig=30.2inHg|slp_cor=3.18hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.56hPa
+1845	3	7	15	0	0	1025.7	orig=30.18inHg|slp_cor=3.18hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.54hPa
+1845	3	8	9	0	0	1023	orig=30.1inHg|slp_cor=3.17hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.55hPa
+1845	3	8	15	0	0	1024.4	orig=30.14inHg|slp_cor=3.18hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.59hPa
+1845	3	9	9	0	0	1023.7	orig=30.12inHg|slp_cor=3.18hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.57hPa
+1845	3	9	15	0	0	1023.7	orig=30.12inHg|slp_cor=3.18hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.57hPa
+1845	3	10	9	0	0	1023	orig=30.1inHg|slp_cor=3.17hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.55hPa
+1845	3	10	15	0	0	1020.3	orig=30.02inHg|slp_cor=3.17hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.57hPa
+1845	3	11	9	0	0	1017.6	orig=29.94inHg|slp_cor=3.16hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.59hPa
+1845	3	11	15	0	0	1016.2	orig=29.9inHg|slp_cor=3.15hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.55hPa
+1845	3	12	9	0	0	1013.5	orig=29.82inHg|slp_cor=3.14hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.56hPa
+1845	3	12	15	0	0	1012.2	orig=29.78inHg|slp_cor=3.14hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.62hPa
+1845	3	13	9	0	0	1010.8	orig=29.74inHg|slp_cor=3.14hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.58hPa
+1845	3	13	15	0	0	1010.1	orig=29.72inHg|slp_cor=3.13hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.56hPa
+1845	3	14	9	0	0	1007.4	orig=29.64inHg|slp_cor=3.13hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.58hPa
+1845	3	14	15	0	0	1006	orig=29.6inHg|slp_cor=3.12hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.54hPa
+1845	3	15	9	0	0	1010.8	orig=29.74inHg|slp_cor=3.14hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.58hPa
+1845	3	15	15	0	0	1010.1	orig=29.72inHg|slp_cor=3.13hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.56hPa
+1845	3	16	9	0	0	1004	orig=29.54inHg|slp_cor=3.12hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.57hPa
+1845	3	16	15	0	0	1001.6	orig=29.47inHg|slp_cor=3.11hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.55hPa
+1845	3	17	9	0	0	1011.1	orig=29.75inHg|slp_cor=3.14hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.54hPa
+1845	3	17	15	0	0	1009.8	orig=29.71inHg|slp_cor=3.13hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.6hPa
+1845	3	18	9	0	0	1008.1	orig=29.66inHg|slp_cor=3.13hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.6hPa
+1845	3	18	15	0	0	1007.1	orig=29.63inHg|slp_cor=3.12hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.62hPa
+1845	3	19	9	0	0	1007.4	orig=29.64inHg|slp_cor=3.13hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.58hPa
+1845	3	19	15	0	0	1010.1	orig=29.72inHg|slp_cor=3.13hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.56hPa
+1845	3	20	9	0	0	1022	orig=30.07inHg|slp_cor=3.17hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.57hPa
+1845	3	20	15	0	0	1024.4	orig=30.14inHg|slp_cor=3.18hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.59hPa
+1845	3	21	9	0	0	1035.6	orig=30.47inHg|slp_cor=3.21hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.58hPa
+1845	3	21	15	0	0	1037	orig=30.51inHg|slp_cor=3.22hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.63hPa
+1845	3	22	9	0	0	1032.5	orig=30.38inHg|slp_cor=3.2hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.54hPa
+1845	3	22	15	0	0	1031.2	orig=30.34inHg|slp_cor=3.2hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.6hPa
+1845	3	23	9	0	0	1027.1	orig=30.22inHg|slp_cor=3.19hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.58hPa
+1845	3	23	15	0	0	1024	orig=30.13inHg|slp_cor=3.18hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.53hPa
+1845	3	24	9	0	0	1021	orig=30.04inHg|slp_cor=3.17hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.59hPa
+1845	3	24	15	0	0	1023	orig=30.1inHg|slp_cor=3.17hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.55hPa
+1845	3	25	9	0	0	1021	orig=30.04inHg|slp_cor=3.17hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.59hPa
+1845	3	25	15	0	0	1017.6	orig=29.94inHg|slp_cor=3.16hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.59hPa
+1845	3	26	9	0	0	1013.2	orig=29.81inHg|slp_cor=3.14hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.6hPa
+1845	3	26	15	0	0	1015.6	orig=29.88inHg|slp_cor=3.15hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.63hPa
+1845	3	27	9	0	0	1013.2	orig=29.81inHg|slp_cor=3.14hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.6hPa
+1845	3	27	15	0	0	1015.9	orig=29.89inHg|slp_cor=3.15hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.59hPa
+1845	3	28	9	0	0	1008.1	orig=29.66inHg|slp_cor=3.13hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.6hPa
+1845	3	28	15	0	0	1010.1	orig=29.72inHg|slp_cor=3.13hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.56hPa
+1845	3	29	9	0	0	1020.3	orig=30.02inHg|slp_cor=3.17hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.57hPa
+1845	3	29	15	0	0	1025.1	orig=30.16inHg|slp_cor=3.18hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.61hPa
+1845	3	30	9	0	0	1029.1	orig=30.28inHg|slp_cor=3.19hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.54hPa
+1845	3	30	15	0	0	1024.4	orig=30.14inHg|slp_cor=3.18hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.59hPa
+1845	3	31	9	0	0	1024.4	orig=30.14inHg|slp_cor=3.18hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.59hPa
+1845	3	31	15	0	0	1027.1	orig=30.22inHg|slp_cor=3.19hPa|drybulb_temp=1.7C|qc=0|Adjusted=Y|Correction=+0.58hPa

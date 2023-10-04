@@ -1,0 +1,8 @@
+data/bin
+*~
+.Rhistory
+*.R
+*.RDS
+*.sh
+*.log
+docs/
