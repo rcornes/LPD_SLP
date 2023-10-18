@@ -1,0 +1,1917 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+    
+        
+    
+
+    
+
+    
+        
+    
+
+    
+
+    
+
+    
+        
+    
+
+    
+        
+    
+
+    
+        
+    
+
+    
+        
+    
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+    
+        
+    
+
+    
+
+    
+        
+    
+
+    
+
+    
+
+    
+        
+    
+
+    
+
+    
+        
+    
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<feed  xml:lang="en"  xmlns="http://www.w3.org/2005/Atom">
+    
+        <author>
+            
+                <email>will.faught@example.com</email>
+            
+
+            
+                <name>Will Faught</name>
+            
+
+            
+                <uri>https://willfaught.com/paige</uri>
+            
+        </author>
+    
+
+    
+
+    <id>tag:example.com,2023-09-24:2023-09-24T21:29:31-07:00</id>
+
+    
+        
+
+        
+            
+        
+
+        
+            <link href="https://example.com/categories/paige/atom.xml" rel="self" type="application/atom+xml"/>
+        
+    
+        
+
+        
+            
+        
+
+        
+            <link href="https://example.com/categories/paige/" rel="alternate" type="text/html"/>
+        
+    
+        
+
+        
+
+        
+            <link href="https://example.com/categories/paige/rss.xml" rel="alternate" type="application/rss+xml"/>
+        
+    
+
+    
+
+    
+
+    
+        <rights type="html"><![CDATA[© Richard Cornes]]></rights>
+    
+
+    
+        <subtitle type="html"><![CDATA[Demonstration of a category.]]></subtitle>
+    
+
+    <title type="html"><![CDATA[Paige · Categories · English Channel Storms]]></title>
+    <updated>2023-09-24T21:29:31-07:00</updated>
+
+    
+        <entry>
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+
+            
+
+            
+
+            
+                
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+                
+                    <author>
+                        
+                            <email>will.faught@example.com</email>
+                        
+
+                        
+                            <name>Will Faught</name>
+                        
+
+                        
+                            <uri>https://willfaught.com/paige</uri>
+                        
+                    </author>
+                
+            
+
+            
+                <content type="html"><![CDATA[<!--
+The MIT License (MIT)
+
+Copyright (c) 2014 Steve Francia
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+-->
+<p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.</p>
+<h2 id="headings">Headings</h2>
+<p>The following HTML <code>&lt;h2&gt;</code>—<code>&lt;h6&gt;</code> elements represent five levels of section headings. <code>&lt;h2&gt;</code> is the highest section level while <code>&lt;h6&gt;</code> is the lowest.</p>
+<h2 id="h2">H2</h2>
+<h3 id="h3">H3</h3>
+<h4 id="h4">H4</h4>
+<h5 id="h5">H5</h5>
+<h6 id="h6">H6</h6>
+<h2 id="paragraph">Paragraph</h2>
+<p>Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.</p>
+<p>Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.</p>
+<h2 id="blockquotes">Blockquotes</h2>
+<p>The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a <code>footer</code> or <code>cite</code> element, and optionally with in-line changes such as annotations and abbreviations.</p>
+<h3 id="blockquote-without-attribution">Blockquote without attribution</h3>
+<blockquote>
+<p>Tiam, ad mint andaepu dandae nostion secatur sequo quae.
+<strong>Note</strong> that you can use <em>Markdown syntax</em> within a blockquote.</p>
+</blockquote>
+<h3 id="blockquote-with-attribution">Blockquote with attribution</h3>
+<blockquote>
+<p>Don&rsquo;t communicate by sharing memory, share memory by communicating.<br>
+— <cite>Rob Pike<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></cite></p>
+</blockquote>
+<h2 id="tables">Tables</h2>
+<p>Tables aren&rsquo;t part of the core Markdown spec, but Hugo supports supports them out-of-the-box.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Age</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bob</td>
+<td>27</td>
+</tr>
+<tr>
+<td>Alice</td>
+<td>23</td>
+</tr>
+</tbody>
+</table>
+<h3 id="inline-markdown-within-tables">Inline Markdown within tables</h3>
+<table>
+<thead>
+<tr>
+<th>Italics</th>
+<th>Bold</th>
+<th>Code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em>italics</em></td>
+<td><strong>bold</strong></td>
+<td><code>code</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="code-blocks">Code Blocks</h2>
+<h3 id="code-block-with-backticks">Code block with backticks</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="cp">&lt;!doctype html&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">html</span> <span class="na">lang</span><span class="o">=</span><span class="s">&#34;en&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">&#34;utf-8&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Example HTML5 Document<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Test<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
+</span></span></code></pre></div><h3 id="code-block-indented-with-four-spaces">Code block indented with four spaces</h3>
+<pre><code>&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot;&gt;
+  &lt;title&gt;Example HTML5 Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;p&gt;Test&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<h3 id="code-block-with-hugos-internal-highlight-shortcode">Code block with Hugo&rsquo;s internal highlight shortcode</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="cp">&lt;!doctype html&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">html</span> <span class="na">lang</span><span class="o">=</span><span class="s">&#34;en&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">&#34;utf-8&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Example HTML5 Document<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Test<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span></span></span></code></pre></div>
+<h2 id="list-types">List Types</h2>
+<h3 id="ordered-list">Ordered List</h3>
+<ol>
+<li>First item</li>
+<li>Second item</li>
+<li>Third item</li>
+</ol>
+<h3 id="unordered-list">Unordered List</h3>
+<ul>
+<li>List item</li>
+<li>Another item</li>
+<li>And another item</li>
+</ul>
+<h3 id="nested-list">Nested list</h3>
+<ul>
+<li>Fruit
+<ul>
+<li>Apple</li>
+<li>Orange</li>
+<li>Banana</li>
+</ul>
+</li>
+<li>Dairy
+<ul>
+<li>Milk</li>
+<li>Cheese</li>
+</ul>
+</li>
+</ul>
+<h2 id="other-elements--abbr-sub-sup-kbd-mark">Other Elements — abbr, sub, sup, kbd, mark</h2>
+<p><abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.</p>
+<p>H<sub>2</sub>O</p>
+<p>X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup></p>
+<p>Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the session.</p>
+<p>Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>The above quote is excerpted from Rob Pike&rsquo;s <a href="https://www.youtube.com/watch?v=PAAkCSZUG1c">talk</a> during Gopherfest, November 18, 2015.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>]]></content>
+            
+
+            <id>tag:example.com,2023-09-18:2023-09-18T21:32:52-07:00</id>
+
+            
+                
+
+                
+                    
+
+                    <link href="https://example.com/content/markdown-syntax/" rel="alternate" type="text/html"/>
+                
+            
+
+            
+
+            
+                <published>2023-09-18T21:32:52-07:00</published>
+            
+
+            
+                <rights type="html"><![CDATA[© Richard Cornes]]></rights>
+            
+
+            
+                <summary type="html"><![CDATA[Sample article showcasing basic Markdown syntax and formatting for HTML elements.]]></summary>
+            
+
+            <title type="html"><![CDATA[Markdown Syntax Guide]]></title>
+            <updated>2023-09-18T21:32:52-07:00</updated>
+        </entry>
+    
+        <entry>
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+
+            
+
+            
+
+            
+                
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+                
+                    <author>
+                        
+                            <email>will.faught@example.com</email>
+                        
+
+                        
+                            <name>Will Faught</name>
+                        
+
+                        
+                            <uri>https://willfaught.com/paige</uri>
+                        
+                    </author>
+                
+            
+
+            
+                <content type="html"><![CDATA[<p>This site uses the default styles on the other pages. This page changes them.</p>
+<h2 id="parameters">Parameters</h2>
+<p>This page has the following parameters:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">paige</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">file_link</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">disable</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">style</span><span class="p">:</span><span class="w"> </span><span class="p">|</span><span class="sd">
+</span></span></span><span class="line"><span class="cl"><span class="sd">    #paige-authors,
+</span></span></span><span class="line"><span class="cl"><span class="sd">    #paige-credit,
+</span></span></span><span class="line"><span class="cl"><span class="sd">    #paige-date,
+</span></span></span><span class="line"><span class="cl"><span class="sd">    #paige-keywords,
+</span></span></span><span class="line"><span class="cl"><span class="sd">    #paige-reading-time,
+</span></span></span><span class="line"><span class="cl"><span class="sd">    #paige-series,
+</span></span></span><span class="line"><span class="cl"><span class="sd">    #paige-toc,
+</span></span></span><span class="line"><span class="cl"><span class="sd">    .paige-authors,
+</span></span></span><span class="line"><span class="cl"><span class="sd">    .paige-date,
+</span></span></span><span class="line"><span class="cl"><span class="sd">    .paige-date-header,
+</span></span></span><span class="line"><span class="cl"><span class="sd">    .paige-keywords,
+</span></span></span><span class="line"><span class="cl"><span class="sd">    .paige-reading-time,
+</span></span></span><span class="line"><span class="cl"><span class="sd">    .paige-series,
+</span></span></span><span class="line"><span class="cl"><span class="sd">    .paige-summary {
+</span></span></span><span class="line"><span class="cl"><span class="sd">        display: block;
+</span></span></span><span class="line"><span class="cl"><span class="sd">    }
+</span></span></span><span class="line"><span class="cl"><span class="sd">    #paige-authors { font-style: italic; }
+</span></span></span><span class="line"><span class="cl"><span class="sd">    #paige-content { font-style: italic; }
+</span></span></span><span class="line"><span class="cl"><span class="sd">    #paige-date { font-style: italic; }
+</span></span></span><span class="line"><span class="cl"><span class="sd">    #paige-description { font-style: italic; }
+</span></span></span><span class="line"><span class="cl"><span class="sd">    #paige-file-link { font-style: italic; }
+</span></span></span><span class="line"><span class="cl"><span class="sd">    #paige-keywords { font-style: italic; }
+</span></span></span><span class="line"><span class="cl"><span class="sd">    #paige-reading-time { font-style: italic; }
+</span></span></span><span class="line"><span class="cl"><span class="sd">    #paige-series { font-style: italic; }
+</span></span></span><span class="line"><span class="cl"><span class="sd">    #paige-title { font-style: italic; }
+</span></span></span><span class="line"><span class="cl"><span class="sd">    #paige-toc { font-style: italic; }
+</span></span></span><span class="line"><span class="cl"><span class="sd">    #paige-copyright { font-style: italic; }
+</span></span></span><span class="line"><span class="cl"><span class="sd">    #paige-credit { font-style: italic; }
+</span></span></span><span class="line"><span class="cl"><span class="sd">    .paige-authors { font-style: italic; }
+</span></span></span><span class="line"><span class="cl"><span class="sd">    .paige-date { font-style: italic; }
+</span></span></span><span class="line"><span class="cl"><span class="sd">    .paige-date-header { font-style: italic; }
+</span></span></span><span class="line"><span class="cl"><span class="sd">    .paige-keyword { font-style: italic; }
+</span></span></span><span class="line"><span class="cl"><span class="sd">    .paige-series { font-style: italic; }
+</span></span></span><span class="line"><span class="cl"><span class="sd">    .paige-summary { font-style: italic; }</span><span class="w">    
+</span></span></span></code></pre></div>]]></content>
+            
+
+            <id>tag:example.com,2023-01-01:2023-01-01T00:00:00-08:00</id>
+
+            
+                
+
+                
+                    
+
+                    <link href="https://example.com/customization/style/" rel="alternate" type="text/html"/>
+                
+            
+
+            
+
+            
+                <published>2023-01-01T00:00:00-08:00</published>
+            
+
+            
+                <rights type="html"><![CDATA[© Richard Cornes]]></rights>
+            
+
+            
+                <summary type="html"><![CDATA[Demonstration of Paige customization that styles data.]]></summary>
+            
+
+            <title type="html"><![CDATA[Style Data]]></title>
+            <updated>2023-01-01T00:00:00-08:00</updated>
+        </entry>
+    
+        <entry>
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+
+            
+
+            
+
+            
+                
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+                
+                    <author>
+                        
+                            <email>will.faught@example.com</email>
+                        
+
+                        
+                            <name>Will Faught</name>
+                        
+
+                        
+                            <uri>https://willfaught.com/paige</uri>
+                        
+                    </author>
+                
+            
+
+            
+                <content type="html"><![CDATA[<!--
+The MIT License (MIT)
+
+Copyright (c) 2014 Steve Francia
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+-->
+<p>Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.</p>
+<p>In this example we will be using <a href="https://katex.org/">KaTeX</a></p>
+<ul>
+<li>Create a partial under <code>/layouts/partials/math.html</code></li>
+<li>Within this partial reference the <a href="https://katex.org/docs/autorender.html">Auto-render Extension</a> or host these scripts locally.</li>
+<li>Include the partial in your templates like so:</li>
+</ul>
+<pre tabindex="0"><code>{{ if .Params.paige.math }}
+{{ partial &#34;math.html&#34; . }}
+{{ end }}
+</code></pre><p>To enable KaTex on a per page basis include the parameter <code>paige.math: true</code> in content files</p>
+<p><strong>Note:</strong> Use the online reference of <a href="https://katex.org/docs/supported.html">Supported TeX Functions</a></p>
+<h2 id="examples">Examples</h2>
+<p>
+Inline math: \(\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…\)
+</p>
+<p>Block math:
+$$
+\varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
+$$</p>]]></content>
+            
+
+            <id>tag:example.com,2023-09-18:2023-09-18T21:33:03-07:00</id>
+
+            
+                
+
+                
+                    
+
+                    <link href="https://example.com/content/math-typesetting/" rel="alternate" type="text/html"/>
+                
+            
+
+            
+
+            
+                <published>2023-09-18T21:33:03-07:00</published>
+            
+
+            
+                <rights type="html"><![CDATA[© Richard Cornes]]></rights>
+            
+
+            
+                <summary type="html"><![CDATA[A brief guide to setup KaTeX.]]></summary>
+            
+
+            <title type="html"><![CDATA[Math Typesetting]]></title>
+            <updated>2023-09-18T21:33:03-07:00</updated>
+        </entry>
+    
+        <entry>
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+
+            
+
+            
+
+            
+                
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+                
+                    <author>
+                        
+                            <email>will.faught@example.com</email>
+                        
+
+                        
+                            <name>Will Faught</name>
+                        
+
+                        
+                            <uri>https://willfaught.com/paige</uri>
+                        
+                    </author>
+                
+            
+
+            
+                <content type="html"><![CDATA[<!--
+The MIT License (MIT)
+
+Copyright (c) 2014 Steve Francia
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+-->
+<p>Emoji can be enabled in a Hugo project in a number of ways.</p>
+<p>The <a href="https://gohugo.io/functions/emojify/"><code>emojify</code></a> function can be called directly in templates or <a href="https://gohugo.io/templates/shortcode-templates/#inline-shortcodes">Inline Shortcodes</a>.</p>
+<p>To enable emoji globally, set <code>enableEmoji</code> to <code>true</code> in your site&rsquo;s <a href="https://gohugo.io/getting-started/configuration/">configuration</a> and then you can type emoji shorthand codes directly in content files; e.g.</p>
+<p><span class="nowrap"><span class="emojify">🙈</span> <code>:see_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙉</span> <code>:hear_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙊</span> <code>:speak_no_evil:</code></span></p>
+<br>
+<p>The <a href="http://www.emoji-cheat-sheet.com/">Emoji cheat sheet</a> is a useful reference for emoji shorthand codes.</p>
+<hr>
+<p><strong>N.B.</strong> The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl">.emoji {
+</span></span><span class="line"><span class="cl">  font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
+</span></span><span class="line"><span class="cl">}</span></span></code></pre></div>]]></content>
+            
+
+            <id>tag:example.com,2023-09-18:2023-09-18T21:32:40-07:00</id>
+
+            
+                
+
+                
+                    
+
+                    <link href="https://example.com/content/emoji-support/" rel="alternate" type="text/html"/>
+                
+            
+
+            
+
+            
+                <published>2023-09-18T21:32:40-07:00</published>
+            
+
+            
+                <rights type="html"><![CDATA[© Richard Cornes]]></rights>
+            
+
+            
+                <summary type="html"><![CDATA[Guide to emoji usage in Hugo.]]></summary>
+            
+
+            <title type="html"><![CDATA[Emoji Support]]></title>
+            <updated>2023-09-18T21:32:40-07:00</updated>
+        </entry>
+    
+        <entry>
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+
+            
+
+            
+
+            
+                
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+                
+                    <author>
+                        
+                            <email>will.faught@example.com</email>
+                        
+
+                        
+                            <name>Will Faught</name>
+                        
+
+                        
+                            <uri>https://willfaught.com/paige</uri>
+                        
+                    </author>
+                
+            
+
+            
+                <content type="html"><![CDATA[<p>This page has the following parameters:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">paige</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">alert</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;Get more information &lt;a href=\&#34;#\&#34; class=\&#34;alert-link\&#34;&gt;here&lt;/a&gt;.&#34;</span><span class="w">
+</span></span></span></code></pre></div>]]></content>
+            
+
+            <id>tag:example.com,2023-09-18:2023-09-18T21:33:35-07:00</id>
+
+            
+                
+
+                
+                    
+
+                    <link href="https://example.com/content/simple-alert/" rel="alternate" type="text/html"/>
+                
+            
+
+            
+
+            
+                <published>2023-09-18T21:33:35-07:00</published>
+            
+
+            
+                <rights type="html"><![CDATA[© Richard Cornes]]></rights>
+            
+
+            
+                <summary type="html"><![CDATA[A simple alert.]]></summary>
+            
+
+            <title type="html"><![CDATA[Simple Alert]]></title>
+            <updated>2023-09-18T21:33:35-07:00</updated>
+        </entry>
+    
+        <entry>
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+
+            
+
+            
+
+            
+                
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+                
+                    <author>
+                        
+                            <email>will.faught@example.com</email>
+                        
+
+                        
+                            <name>Will Faught</name>
+                        
+
+                        
+                            <uri>https://willfaught.com/paige</uri>
+                        
+                    </author>
+                
+            
+
+            
+                <content type="html"><![CDATA[<p>This page has the following parameters:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">paige</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">alert</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">message</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;Get more information &lt;a href=\&#34;#\&#34; class=\&#34;alert-link\&#34;&gt;here&lt;/a&gt;.&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;danger&#34;</span><span class="w">
+</span></span></span></code></pre></div>]]></content>
+            
+
+            <id>tag:example.com,2023-09-18:2023-09-18T21:21:05-07:00</id>
+
+            
+                
+
+                
+                    
+
+                    <link href="https://example.com/content/complex-alert/" rel="alternate" type="text/html"/>
+                
+            
+
+            
+
+            
+                <published>2023-09-18T21:21:05-07:00</published>
+            
+
+            
+                <rights type="html"><![CDATA[© Richard Cornes]]></rights>
+            
+
+            
+                <summary type="html"><![CDATA[A complex alert.]]></summary>
+            
+
+            <title type="html"><![CDATA[Complex Alert]]></title>
+            <updated>2023-09-18T21:21:05-07:00</updated>
+        </entry>
+    
+        <entry>
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+
+            
+                
+                
+
+                
+            
+
+            
+
+            
+                
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+                
+                    <author>
+                        
+                            <email>will.faught@example.com</email>
+                        
+
+                        
+                            <name>Will Faught</name>
+                        
+
+                        
+                            <uri>https://willfaught.com/paige</uri>
+                        
+                    </author>
+                
+            
+
+            
+                <content type="html"><![CDATA[<p>It takes you to the home page.</p>
+<p><a href="https://example.com/content/link/" title="Link">⏎</a></p>]]></content>
+            
+
+            <id>tag:example.com,2023-09-24:2023-09-24T21:29:30-07:00</id>
+
+            
+                
+
+                
+                    
+
+                    <link href="https://willfaught.com/paige" rel="alternate" type="text/html"/>
+                
+            
+
+            
+
+            
+                <published>2023-09-24T21:29:30-07:00</published>
+            
+
+            
+                <rights type="html"><![CDATA[© Richard Cornes]]></rights>
+            
+
+            
+                <summary type="html"><![CDATA[A front matter link.]]></summary>
+            
+
+            <title type="html"><![CDATA[Link]]></title>
+            <updated>2023-09-24T21:29:30-07:00</updated>
+        </entry>
+    
+        <entry>
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+
+            
+
+            
+
+            
+                
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+                
+                    <author>
+                        
+                            <email>will.faught@example.com</email>
+                        
+
+                        
+                            <name>Will Faught</name>
+                        
+
+                        
+                            <uri>https://willfaught.com/paige</uri>
+                        
+                    </author>
+                
+            
+
+            
+                <content type="html"><![CDATA[
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+<div class="paige-youtube">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="paige-video ratio ratio-16x9" >
+    
+
+
+
+
+
+
+<iframe  allowfullscreen   referrerpolicy="no-referrer-when-downgrade"   src="https://www.youtube.com/embed/dQw4w9WgXcQ?hl=en&amp;modestbranding=1"   title="YouTube video" ></iframe>
+
+</div>
+
+</div>
+
+]]></content>
+            
+
+            <id>tag:example.com,2023-09-24:2023-09-24T21:29:31-07:00</id>
+
+            
+                
+
+                
+                    
+
+                    <link href="https://example.com/content/video/" rel="alternate" type="text/html"/>
+                
+            
+
+            
+
+            
+                <published>2023-09-24T21:29:31-07:00</published>
+            
+
+            
+                <rights type="html"><![CDATA[© Richard Cornes]]></rights>
+            
+
+            
+                <summary type="html"><![CDATA[Only a video.]]></summary>
+            
+
+            <title type="html"><![CDATA[Video]]></title>
+            <updated>2023-09-24T21:29:31-07:00</updated>
+        </entry>
+    
+        <entry>
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+
+            
+
+            
+
+            
+                
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+                
+                    <author>
+                        
+                            <email>will.faught@example.com</email>
+                        
+
+                        
+                            <name>Will Faught</name>
+                        
+
+                        
+                            <uri>https://willfaught.com/paige</uri>
+                        
+                    </author>
+                
+            
+
+            
+                <content type="html"><![CDATA[<p>Paige provides a <code>paige/quote</code> shortcode for displaying a quotation.</p>
+<h2 id="basic">Basic</h2>
+<p>Code:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go-html-template" data-lang="go-html-template"><span class="line"><span class="cl"><span class="cp">{{</span><span class="err">&lt;</span><span class="w"> </span><span class="nx">paige</span><span class="err">/</span><span class="nx">quote</span><span class="w"> </span><span class="err">&gt;</span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl">Hickory dickory dock.<span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span>The mouse ran up the clock.<span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span>The clock struck one,<span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span>The mouse ran down,<span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span>Hickory dickory dock.
+</span></span><span class="line"><span class="cl"><span class="cp">{{</span><span class="err">&lt;</span><span class="w"> </span><span class="err">/</span><span class="nx">paige</span><span class="err">/</span><span class="nx">quote</span><span class="w"> </span><span class="err">&gt;</span><span class="cp">}}</span>
+</span></span></code></pre></div><p>Result:</p>
+
+
+
+
+
+<div class="paige-quote">
+    <blockquote class="blockquote">Hickory dickory dock.<br>The mouse ran up the clock.<br>The clock struck one,<br>The mouse ran down,<br>Hickory dickory dock.</blockquote>
+
+    
+</div>
+
+<h2 id="cite">Cite</h2>
+<p>Code:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go-html-template" data-lang="go-html-template"><span class="line"><span class="cl"><span class="cp">{{</span><span class="err">&lt;</span><span class="w"> </span><span class="nx">paige</span><span class="err">/</span><span class="nx">quote</span><span class="w"> </span><span class="nx">cite</span><span class="o">=</span><span class="s">&#34;Hickory Dickory Dock&#34;</span><span class="w"> </span><span class="err">&gt;</span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl">Hickory dickory dock.<span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span>The mouse ran up the clock.<span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span>The clock struck one,<span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span>The mouse ran down,<span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span>Hickory dickory dock.
+</span></span><span class="line"><span class="cl"><span class="cp">{{</span><span class="err">&lt;</span><span class="w"> </span><span class="err">/</span><span class="nx">paige</span><span class="err">/</span><span class="nx">quote</span><span class="w"> </span><span class="err">&gt;</span><span class="cp">}}</span>
+</span></span></code></pre></div><p>Result:</p>
+
+
+
+
+
+<div class="paige-quote">
+    <blockquote class="blockquote">Hickory dickory dock.<br>The mouse ran up the clock.<br>The clock struck one,<br>The mouse ran down,<br>Hickory dickory dock.</blockquote>
+
+    
+        <div class="blockquote-footer">Hickory Dickory Dock</div>
+    
+</div>
+
+<h2 id="figure">Figure</h2>
+<p>Code:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go-html-template" data-lang="go-html-template"><span class="line"><span class="cl"><span class="cp">{{</span><span class="err">&lt;</span><span class="w"> </span><span class="nx">paige</span><span class="err">/</span><span class="nx">figure</span><span class="w"> </span><span class="nx">caption</span><span class="o">=</span><span class="s">&#34;Hickory Dickory Dock&#34;</span><span class="w"> </span><span class="err">&gt;</span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl"><span class="cp">{{</span><span class="err">&lt;</span><span class="w"> </span><span class="nx">paige</span><span class="err">/</span><span class="nx">quote</span><span class="w"> </span><span class="err">&gt;</span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl">Hickory dickory dock.<span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span>The mouse ran up the clock.<span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span>The clock struck one,<span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span>The mouse ran down,<span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span>Hickory dickory dock.
+</span></span><span class="line"><span class="cl"><span class="cp">{{</span><span class="err">&lt;</span><span class="w"> </span><span class="err">/</span><span class="nx">paige</span><span class="err">/</span><span class="nx">quote</span><span class="w"> </span><span class="err">&gt;</span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl"><span class="cp">{{</span><span class="err">&lt;</span><span class="w"> </span><span class="err">/</span><span class="nx">paige</span><span class="err">/</span><span class="nx">figure</span><span class="w"> </span><span class="err">&gt;</span><span class="cp">}}</span>
+</span></span></code></pre></div><p>Result:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+<div class="align-items-center d-flex  h-100 justify-content-center  paige-figure ">
+<figure class=" mb-0" >
+<div class="d-flex justify-content-center text-center"><div class="paige-quote">
+    <blockquote class="blockquote">Hickory dickory dock.<br>The mouse ran up the clock.<br>The clock struck one,<br>The mouse ran down,<br>Hickory dickory dock.</blockquote>
+</div>
+</div>
+
+
+<figcaption class="figure-caption mt-2 text-center" >Hickory Dickory Dock</figcaption>
+
+</figure>
+</div>]]></content>
+            
+
+            <id>tag:example.com,2023-09-18:2023-09-18T21:35:28-07:00</id>
+
+            
+                
+
+                
+                    
+
+                    <link href="https://example.com/shortcodes/quote/" rel="alternate" type="text/html"/>
+                
+            
+
+            
+
+            
+                <published>2023-09-18T21:35:28-07:00</published>
+            
+
+            
+                <rights type="html"><![CDATA[© Richard Cornes]]></rights>
+            
+
+            
+                <summary type="html"><![CDATA[Demonstration of the Paige quote shortcode.]]></summary>
+            
+
+            <title type="html"><![CDATA[Quote Shortcode]]></title>
+            <updated>2023-09-18T21:35:28-07:00</updated>
+        </entry>
+    
+        <entry>
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+
+            
+
+            
+
+            
+                
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+                
+                    <author>
+                        
+                            <email>will.faught@example.com</email>
+                        
+
+                        
+                            <name>Will Faught</name>
+                        
+
+                        
+                            <uri>https://willfaught.com/paige</uri>
+                        
+                    </author>
+                
+            
+
+            
+                <content type="html"><![CDATA[<p>Paige provides a <code>paige/icon</code> shortcode for displaying a web font icon.</p>
+<h2 id="class-parameter">Class parameter</h2>
+<p>Code:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go-html-template" data-lang="go-html-template"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">p</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;display-1&#34;</span><span class="p">&gt;</span>Icon: <span class="cp">{{</span><span class="err">&lt;</span><span class="w"> </span><span class="nx">paige</span><span class="err">/</span><span class="nx">icon</span><span class="w"> </span><span class="nx">class</span><span class="o">=</span><span class="s">&#34;bi bi-github&#34;</span><span class="w"> </span><span class="err">&gt;</span><span class="cp">}}</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+</span></span></code></pre></div><p>Result:</p>
+<p class="display-1">Icon: 
+
+
+
+
+
+
+
+<span class="paige-icon">
+    
+
+    <i class="bi bi-github"></i>
+
+    
+</span>
+</p>
+<h2 id="title-parameter">Title parameter</h2>
+<p>Code:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go-html-template" data-lang="go-html-template"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">p</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;display-1&#34;</span><span class="p">&gt;</span>Icon: <span class="cp">{{</span><span class="err">&lt;</span><span class="w"> </span><span class="nx">paige</span><span class="err">/</span><span class="nx">icon</span><span class="w"> </span><span class="nx">class</span><span class="o">=</span><span class="s">&#34;bi bi-github&#34;</span><span class="w"> </span><span class="nx">title</span><span class="o">=</span><span class="s">&#34;GitHub&#34;</span><span class="w"> </span><span class="err">&gt;</span><span class="cp">}}</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+</span></span></code></pre></div><p>Result:</p>
+<p class="display-1">Icon: 
+
+
+
+
+
+
+
+<span class="paige-icon">
+    
+
+    <i class="bi bi-github"><span class="visually-hidden">GitHub</span></i>
+
+    
+</span>
+</p>
+<h2 id="url-parameter">Url parameter</h2>
+<p>Code:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go-html-template" data-lang="go-html-template"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">p</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;display-1&#34;</span><span class="p">&gt;</span>Icon: <span class="cp">{{</span><span class="err">&lt;</span><span class="w"> </span><span class="nx">paige</span><span class="err">/</span><span class="nx">icon</span><span class="w"> </span><span class="nx">class</span><span class="o">=</span><span class="s">&#34;bi bi-github&#34;</span><span class="w"> </span><span class="nx">url</span><span class="o">=</span><span class="s">&#34;https://github.com/willfaught/paige&#34;</span><span class="w"> </span><span class="err">&gt;</span><span class="cp">}}</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+</span></span></code></pre></div><p>Result:</p>
+<p class="display-1">Icon: 
+
+
+
+
+
+
+
+<span class="paige-icon">
+    
+        <a href="https://github.com/willfaught/paige"  >
+    
+
+    <i class="bi bi-github"></i>
+
+    
+        </a>
+    
+</span>
+</p>]]></content>
+            
+
+            <id>tag:example.com,2023-09-18:2023-09-18T21:35:15-07:00</id>
+
+            
+                
+
+                
+                    
+
+                    <link href="https://example.com/shortcodes/icon/" rel="alternate" type="text/html"/>
+                
+            
+
+            
+
+            
+                <published>2023-09-18T21:35:15-07:00</published>
+            
+
+            
+                <rights type="html"><![CDATA[© Richard Cornes]]></rights>
+            
+
+            
+                <summary type="html"><![CDATA[Demonstration of the Paige icon shortcode.]]></summary>
+            
+
+            <title type="html"><![CDATA[Icon Shortcode]]></title>
+            <updated>2023-09-18T21:35:15-07:00</updated>
+        </entry>
+    
+        <entry>
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+
+            
+
+            
+
+            
+                
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+                
+                    <author>
+                        
+                            <email>will.faught@example.com</email>
+                        
+
+                        
+                            <name>Will Faught</name>
+                        
+
+                        
+                            <uri>https://willfaught.com/paige</uri>
+                        
+                    </author>
+                
+            
+
+            
+                <content type="html"><![CDATA[<p>Paige provides a <code>paige/code</code> shortcode for displaying code.</p>
+<h2 id="basic">Basic</h2>
+<p>Code:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go-html-template" data-lang="go-html-template"><span class="line"><span class="cl"><span class="cp">{{</span><span class="err">&lt;</span><span class="w"> </span><span class="nx">paige</span><span class="err">/</span><span class="nx">code</span><span class="w"> </span><span class="err">&gt;</span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl">q = &#39;q = %r; print(q %% q)&#39;; print(q % q)
+</span></span><span class="line"><span class="cl"><span class="cp">{{</span><span class="err">&lt;</span><span class="w"> </span><span class="err">/</span><span class="nx">paige</span><span class="err">/</span><span class="nx">code</span><span class="w"> </span><span class="err">&gt;</span><span class="cp">}}</span>
+</span></span></code></pre></div><p>Result:</p>
+
+
+
+
+
+
+<div class="paige-code"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-plaintext" data-lang="plaintext"><span class="line"><span class="cl">q = &#39;q = %r; print(q %% q)&#39;; print(q % q)
+</span></span></code></pre></div></div>
+
+<hr>
+<p>Code:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go-html-template" data-lang="go-html-template"><span class="line"><span class="cl"><span class="cp">{{</span><span class="err">&lt;</span><span class="w"> </span><span class="nx">paige</span><span class="err">/</span><span class="nx">code</span><span class="w"> </span><span class="err">&gt;</span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl">                       ---
+</span></span><span class="line"><span class="cl">                    -        --
+</span></span><span class="line"><span class="cl">                --( /     \ )XXXXXXXXXXXXX
+</span></span><span class="line"><span class="cl">            --XXX(   O   O  )XXXXXXXXXXXXXXX-
+</span></span><span class="line"><span class="cl">           /XXX(       U     )        XXXXXXX\
+</span></span><span class="line"><span class="cl">         /XXXXX(              )--   XXXXXXXXXXX\
+</span></span><span class="line"><span class="cl">        /XXXXX/ (      O     )   XXXXXX   \XXXXX\
+</span></span><span class="line"><span class="cl">        XXXXX/   /            XXXXXX   \   \XXXXX----
+</span></span><span class="line"><span class="cl">        XXXXXX  /          XXXXXX         \  ----  -
+</span></span><span class="line"><span class="cl">---     XXX  /          XXXXXX      \           ---
+</span></span><span class="line"><span class="cl">  --  --  /      /\  XXXXXX            /     ---=
+</span></span><span class="line"><span class="cl">    -        /    XXXXXX              &#39;--- XXXXXX
+</span></span><span class="line"><span class="cl">      --\/XXX\ XXXXXX                      /XXXXX
+</span></span><span class="line"><span class="cl">        \XXXXXXXXX                        /XXXXX/
+</span></span><span class="line"><span class="cl">         \XXXXXX                         /XXXXX/
+</span></span><span class="line"><span class="cl">           \XXXXX--  /                -- XXXX/
+</span></span><span class="line"><span class="cl">            --XXXXXXX---------------  XXXXX--
+</span></span><span class="line"><span class="cl">               \XXXXXXXXXXXXXXXXXXXXXXXX-
+</span></span><span class="line"><span class="cl">                 --XXXXXXXXXXXXXXXXXX-
+</span></span><span class="line"><span class="cl"><span class="cp">{{</span><span class="err">&lt;</span><span class="w"> </span><span class="err">/</span><span class="nx">paige</span><span class="err">/</span><span class="nx">code</span><span class="w"> </span><span class="err">&gt;</span><span class="cp">}}</span>
+</span></span></code></pre></div><p>Result:</p>
+
+
+
+
+
+
+<div class="paige-code"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-plaintext" data-lang="plaintext"><span class="line"><span class="cl">                       ---
+</span></span><span class="line"><span class="cl">                    -        --
+</span></span><span class="line"><span class="cl">                --( /     \ )XXXXXXXXXXXXX
+</span></span><span class="line"><span class="cl">            --XXX(   O   O  )XXXXXXXXXXXXXXX-
+</span></span><span class="line"><span class="cl">           /XXX(       U     )        XXXXXXX\
+</span></span><span class="line"><span class="cl">         /XXXXX(              )--   XXXXXXXXXXX\
+</span></span><span class="line"><span class="cl">        /XXXXX/ (      O     )   XXXXXX   \XXXXX\
+</span></span><span class="line"><span class="cl">        XXXXX/   /            XXXXXX   \   \XXXXX----
+</span></span><span class="line"><span class="cl">        XXXXXX  /          XXXXXX         \  ----  -
+</span></span><span class="line"><span class="cl">---     XXX  /          XXXXXX      \           ---
+</span></span><span class="line"><span class="cl">  --  --  /      /\  XXXXXX            /     ---=
+</span></span><span class="line"><span class="cl">    -        /    XXXXXX              &#39;--- XXXXXX
+</span></span><span class="line"><span class="cl">      --\/XXX\ XXXXXX                      /XXXXX
+</span></span><span class="line"><span class="cl">        \XXXXXXXXX                        /XXXXX/
+</span></span><span class="line"><span class="cl">         \XXXXXX                         /XXXXX/
+</span></span><span class="line"><span class="cl">           \XXXXX--  /                -- XXXX/
+</span></span><span class="line"><span class="cl">            --XXXXXXX---------------  XXXXX--
+</span></span><span class="line"><span class="cl">               \XXXXXXXXXXXXXXXXXXXXXXXX-
+</span></span><span class="line"><span class="cl">                 --XXXXXXXXXXXXXXXXXX-
+</span></span></code></pre></div></div>
+
+<h2 id="lang-parameter">Lang parameter</h2>
+<p>Code:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go-html-template" data-lang="go-html-template"><span class="line"><span class="cl"><span class="cp">{{</span><span class="err">&lt;</span><span class="w"> </span><span class="nx">paige</span><span class="err">/</span><span class="nx">code</span><span class="w"> </span><span class="nx">lang</span><span class="o">=</span><span class="s">&#34;c&#34;</span><span class="w"> </span><span class="err">&gt;</span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl">float Q_rsqrt( float number )
+</span></span><span class="line"><span class="cl">{
+</span></span><span class="line"><span class="cl">	long i;
+</span></span><span class="line"><span class="cl">	float x2, y;
+</span></span><span class="line"><span class="cl">	const float threehalfs = 1.5F;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	x2 = number * 0.5F;
+</span></span><span class="line"><span class="cl">	y  = number;
+</span></span><span class="line"><span class="cl">	i  = * ( long * ) <span class="ni">&amp;y;</span>
+</span></span><span class="line"><span class="cl">	i  = 0x5f3759df - ( i &gt;&gt; 1 );
+</span></span><span class="line"><span class="cl">	y  = * ( float * ) <span class="ni">&amp;i;</span>
+</span></span><span class="line"><span class="cl">	y  = y * ( threehalfs - ( x2 * y * y ) );
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	return y;
+</span></span><span class="line"><span class="cl">}
+</span></span><span class="line"><span class="cl"><span class="cp">{{</span><span class="err">&lt;</span><span class="w"> </span><span class="err">/</span><span class="nx">paige</span><span class="err">/</span><span class="nx">code</span><span class="w"> </span><span class="err">&gt;</span><span class="cp">}}</span>
+</span></span></code></pre></div><p>Result:</p>
+
+
+
+
+
+
+<div class="paige-code"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="kt">float</span> <span class="nf">Q_rsqrt</span><span class="p">(</span> <span class="kt">float</span> <span class="n">number</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="kt">long</span> <span class="n">i</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">	<span class="kt">float</span> <span class="n">x2</span><span class="p">,</span> <span class="n">y</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">	<span class="k">const</span> <span class="kt">float</span> <span class="n">threehalfs</span> <span class="o">=</span> <span class="mf">1.5F</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	<span class="n">x2</span> <span class="o">=</span> <span class="n">number</span> <span class="o">*</span> <span class="mf">0.5F</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">	<span class="n">y</span>  <span class="o">=</span> <span class="n">number</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">	<span class="n">i</span>  <span class="o">=</span> <span class="o">*</span> <span class="p">(</span> <span class="kt">long</span> <span class="o">*</span> <span class="p">)</span> <span class="o">&amp;</span><span class="n">y</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">	<span class="n">i</span>  <span class="o">=</span> <span class="mh">0x5f3759df</span> <span class="o">-</span> <span class="p">(</span> <span class="n">i</span> <span class="o">&gt;&gt;</span> <span class="mi">1</span> <span class="p">);</span>
+</span></span><span class="line"><span class="cl">	<span class="n">y</span>  <span class="o">=</span> <span class="o">*</span> <span class="p">(</span> <span class="kt">float</span> <span class="o">*</span> <span class="p">)</span> <span class="o">&amp;</span><span class="n">i</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">	<span class="n">y</span>  <span class="o">=</span> <span class="n">y</span> <span class="o">*</span> <span class="p">(</span> <span class="n">threehalfs</span> <span class="o">-</span> <span class="p">(</span> <span class="n">x2</span> <span class="o">*</span> <span class="n">y</span> <span class="o">*</span> <span class="n">y</span> <span class="p">)</span> <span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	<span class="k">return</span> <span class="n">y</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div></div>
+
+<h2 id="options-parameter">Options parameter</h2>
+<p>Code:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go-html-template" data-lang="go-html-template"><span class="line"><span class="cl"><span class="cp">{{</span><span class="err">&lt;</span><span class="w"> </span><span class="nx">paige</span><span class="err">/</span><span class="nx">code</span><span class="w"> </span><span class="nx">options</span><span class="o">=</span><span class="s">&#34;linenos=true,hl_lines=10&#34;</span><span class="w"> </span><span class="err">&gt;</span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl">float Q_rsqrt( float number )
+</span></span><span class="line"><span class="cl">{
+</span></span><span class="line"><span class="cl">	long i;
+</span></span><span class="line"><span class="cl">	float x2, y;
+</span></span><span class="line"><span class="cl">	const float threehalfs = 1.5F;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	x2 = number * 0.5F;
+</span></span><span class="line"><span class="cl">	y  = number;
+</span></span><span class="line"><span class="cl">	i  = * ( long * ) <span class="ni">&amp;y;</span>
+</span></span><span class="line"><span class="cl">	i  = 0x5f3759df - ( i &gt;&gt; 1 );
+</span></span><span class="line"><span class="cl">	y  = * ( float * ) <span class="ni">&amp;i;</span>
+</span></span><span class="line"><span class="cl">	y  = y * ( threehalfs - ( x2 * y * y ) );
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	return y;
+</span></span><span class="line"><span class="cl">}
+</span></span><span class="line"><span class="cl"><span class="cp">{{</span><span class="err">&lt;</span><span class="w"> </span><span class="err">/</span><span class="nx">paige</span><span class="err">/</span><span class="nx">code</span><span class="w"> </span><span class="err">&gt;</span><span class="cp">}}</span>
+</span></span></code></pre></div><p>Result:</p>
+
+
+
+
+
+
+<div class="paige-code"><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="hl"><span class="lnt">10
+</span></span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-plaintext" data-lang="plaintext"><span class="line"><span class="cl">float Q_rsqrt( float number )
+</span></span><span class="line"><span class="cl">{
+</span></span><span class="line"><span class="cl">	long i;
+</span></span><span class="line"><span class="cl">	float x2, y;
+</span></span><span class="line"><span class="cl">	const float threehalfs = 1.5F;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	x2 = number * 0.5F;
+</span></span><span class="line"><span class="cl">	y  = number;
+</span></span><span class="line"><span class="cl">	i  = * ( long * ) &amp;y;
+</span></span><span class="line hl"><span class="cl">	i  = 0x5f3759df - ( i &gt;&gt; 1 );
+</span></span><span class="line"><span class="cl">	y  = * ( float * ) &amp;i;
+</span></span><span class="line"><span class="cl">	y  = y * ( threehalfs - ( x2 * y * y ) );
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	return y;
+</span></span><span class="line"><span class="cl">}
+</span></span></code></pre></td></tr></table>
+</div>
+</div></div>
+
+<h2 id="figure">Figure</h2>
+<p>Code:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go-html-template" data-lang="go-html-template"><span class="line"><span class="cl"><span class="cp">{{</span><span class="err">&lt;</span><span class="w"> </span><span class="nx">paige</span><span class="err">/</span><span class="nx">figure</span><span class="w"> </span><span class="nx">caption</span><span class="o">=</span><span class="s">&#34;Quine&#34;</span><span class="w"> </span><span class="err">&gt;</span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl"><span class="cp">{{</span><span class="err">&lt;</span><span class="w"> </span><span class="nx">paige</span><span class="err">/</span><span class="nx">code</span><span class="w"> </span><span class="nx">lang</span><span class="o">=</span><span class="s">&#34;python&#34;</span><span class="w"> </span><span class="err">&gt;</span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl">q = &#39;q = %r; print(q %% q)&#39;; print(q % q)
+</span></span><span class="line"><span class="cl"><span class="cp">{{</span><span class="err">&lt;</span><span class="w"> </span><span class="err">/</span><span class="nx">paige</span><span class="err">/</span><span class="nx">code</span><span class="w"> </span><span class="err">&gt;</span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl"><span class="cp">{{</span><span class="err">&lt;</span><span class="w"> </span><span class="err">/</span><span class="nx">paige</span><span class="err">/</span><span class="nx">figure</span><span class="w"> </span><span class="err">&gt;</span><span class="cp">}}</span>
+</span></span></code></pre></div><p>Result:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+<div class="align-items-center d-flex  h-100 justify-content-center  paige-figure ">
+<figure class=" mb-0" >
+<div class="d-flex justify-content-center text-center"><div class="paige-code"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">q</span> <span class="o">=</span> <span class="s1">&#39;q = </span><span class="si">%r</span><span class="s1">; print(q </span><span class="si">%%</span><span class="s1"> q)&#39;</span><span class="p">;</span> <span class="nb">print</span><span class="p">(</span><span class="n">q</span> <span class="o">%</span> <span class="n">q</span><span class="p">)</span>
+</span></span></code></pre></div></div>
+</div>
+
+
+<figcaption class="figure-caption mt-2 text-center" >Quine</figcaption>
+
+</figure>
+</div>]]></content>
+            
+
+            <id>tag:example.com,2023-09-18:2023-09-18T21:34:51-07:00</id>
+
+            
+                
+
+                
+                    
+
+                    <link href="https://example.com/shortcodes/code/" rel="alternate" type="text/html"/>
+                
+            
+
+            
+
+            
+                <published>2023-09-18T21:34:51-07:00</published>
+            
+
+            
+                <rights type="html"><![CDATA[© Richard Cornes]]></rights>
+            
+
+            
+                <summary type="html"><![CDATA[Demonstration of the Paige code shortcode.]]></summary>
+            
+
+            <title type="html"><![CDATA[Code Shortcode]]></title>
+            <updated>2023-09-18T21:34:51-07:00</updated>
+        </entry>
+    
+        <entry>
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+
+            
+
+            
+
+            
+                
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+                
+                    <author>
+                        
+                            <email>will.faught@example.com</email>
+                        
+
+                        
+                            <name>Will Faught</name>
+                        
+
+                        
+                            <uri>https://willfaught.com/paige</uri>
+                        
+                    </author>
+                
+            
+
+            
+                <content type="html"><![CDATA[<p>This site hides some single page data by default. This page shows it all.</p>
+<h2 id="parameters">Parameters</h2>
+<p>This page has the following parameters:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">paige</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">file_link</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">disable</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">style</span><span class="p">:</span><span class="w"> </span><span class="p">|</span><span class="sd">
+</span></span></span><span class="line"><span class="cl"><span class="sd">    #paige-authors,
+</span></span></span><span class="line"><span class="cl"><span class="sd">    #paige-credit,
+</span></span></span><span class="line"><span class="cl"><span class="sd">    #paige-date,
+</span></span></span><span class="line"><span class="cl"><span class="sd">    #paige-keywords,
+</span></span></span><span class="line"><span class="cl"><span class="sd">    #paige-reading-time,
+</span></span></span><span class="line"><span class="cl"><span class="sd">    #paige-series,
+</span></span></span><span class="line"><span class="cl"><span class="sd">    #paige-toc,
+</span></span></span><span class="line"><span class="cl"><span class="sd">    .paige-authors,
+</span></span></span><span class="line"><span class="cl"><span class="sd">    .paige-date,
+</span></span></span><span class="line"><span class="cl"><span class="sd">    .paige-date-header,
+</span></span></span><span class="line"><span class="cl"><span class="sd">    .paige-keywords,
+</span></span></span><span class="line"><span class="cl"><span class="sd">    .paige-reading-time,
+</span></span></span><span class="line"><span class="cl"><span class="sd">    .paige-series,
+</span></span></span><span class="line"><span class="cl"><span class="sd">    .paige-summary {
+</span></span></span><span class="line"><span class="cl"><span class="sd">        display: block;
+</span></span></span><span class="line"><span class="cl"><span class="sd">    }</span><span class="w">    
+</span></span></span></code></pre></div>]]></content>
+            
+
+            <id>tag:example.com,2023-02-01:2023-02-01T00:00:00-08:00</id>
+
+            
+                
+
+                
+                    
+
+                    <link href="https://example.com/customization/show/" rel="alternate" type="text/html"/>
+                
+            
+
+            
+
+            
+                <published>2023-02-01T00:00:00-08:00</published>
+            
+
+            
+                <rights type="html"><![CDATA[© Richard Cornes]]></rights>
+            
+
+            
+                <summary type="html"><![CDATA[Demonstration of Paige customization that shows data.]]></summary>
+            
+
+            <title type="html"><![CDATA[Show Data]]></title>
+            <updated>2023-02-01T00:00:00-08:00</updated>
+        </entry>
+    
+</feed>

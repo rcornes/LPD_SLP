@@ -1,0 +1,109 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<feed  xml:lang="en"  xmlns="http://www.w3.org/2005/Atom">
+    
+        <author>
+            
+                <email>will.faught@example.com</email>
+            
+
+            
+                <name>Will Faught</name>
+            
+
+            
+                <uri>https://willfaught.com/paige</uri>
+            
+        </author>
+    
+
+    
+
+    <id>tag:example.com,2023-09-24:2023-09-24T21:29:31-07:00</id>
+
+    
+        
+
+        
+            
+        
+
+        
+            <link href="https://example.com/categories/atom.xml" rel="self" type="application/atom+xml"/>
+        
+    
+        
+
+        
+            
+        
+
+        
+            <link href="https://example.com/categories/" rel="alternate" type="text/html"/>
+        
+    
+        
+
+        
+
+        
+            <link href="https://example.com/categories/rss.xml" rel="alternate" type="application/rss+xml"/>
+        
+    
+
+    
+
+    
+
+    
+        <rights type="html"><![CDATA[© Richard Cornes]]></rights>
+    
+
+    
+        <subtitle type="html"><![CDATA[Browse by category.]]></subtitle>
+    
+
+    <title type="html"><![CDATA[Categories · English Channel Storms]]></title>
+    <updated>2023-09-24T21:29:31-07:00</updated>
+
+    
+</feed>

@@ -1,0 +1,74 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"  xml:lang="en"  xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <atom:link href="https://example.com/layouts/cloud/rss.xml" rel="self" type="application/rss+xml"/>
+
+        
+            <copyright>© Richard Cornes</copyright>
+        
+
+        <description>Demonstration of the Paige cloud layout.</description>
+
+        
+            <language>en</language>
+        
+
+        
+            <lastBuildDate>Mon, 01 Jan 0001 00:00:00 UTC</lastBuildDate>
+        
+
+        <link>https://example.com/layouts/cloud/</link>
+
+        
+            <managingEditor>will.faught@example.com (Will Faught)</managingEditor>
+        
+
+        <title>Cloud Layout · Layouts · English Channel Storms</title>
+
+        
+            <webMaster>will.faught@example.com (Will Faught)</webMaster>
+        
+
+        
+    </channel>
+</rss>
