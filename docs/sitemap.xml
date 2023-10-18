@@ -2,226 +2,226 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://rcornes.github.io/LPD_SLP/content/markdown-syntax/</loc>
+    <loc>docs/content/markdown-syntax/</loc>
     <lastmod>2023-09-18T21:32:52-07:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/content/rich-content/</loc>
+    <loc>docs/content/rich-content/</loc>
     <lastmod>2023-09-18T21:33:24-07:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/customization/style/</loc>
+    <loc>docs/customization/style/</loc>
     <lastmod>2023-01-01T00:00:00-08:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/layouts/cloud/</loc>
+    <loc>docs/layouts/cloud/</loc>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/layouts/search/</loc>
+    <loc>docs/layouts/search/</loc>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/content/placeholder-text/</loc>
+    <loc>docs/content/placeholder-text/</loc>
     <lastmod>2023-09-18T21:33:16-07:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/content/math-typesetting/</loc>
+    <loc>docs/content/math-typesetting/</loc>
     <lastmod>2023-09-18T21:33:03-07:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/content/emoji-support/</loc>
+    <loc>docs/content/emoji-support/</loc>
     <lastmod>2023-09-18T21:32:40-07:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/content/simple-alert/</loc>
+    <loc>docs/content/simple-alert/</loc>
     <lastmod>2023-09-18T21:33:35-07:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/content/complex-alert/</loc>
+    <loc>docs/content/complex-alert/</loc>
     <lastmod>2023-09-18T21:21:05-07:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/content/link/</loc>
+    <loc>docs/content/link/</loc>
     <lastmod>2023-09-24T21:29:30-07:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/content/video/</loc>
+    <loc>docs/content/video/</loc>
     <lastmod>2023-09-24T21:29:31-07:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/authors/</loc>
+    <loc>docs/authors/</loc>
     <lastmod>2023-09-24T21:29:31-07:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/categories/</loc>
+    <loc>docs/categories/</loc>
     <lastmod>2023-09-24T21:29:31-07:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/categories/content/</loc>
+    <loc>docs/categories/content/</loc>
     <lastmod>2023-09-24T21:29:31-07:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/content/</loc>
+    <loc>docs/content/</loc>
     <lastmod>2023-09-24T21:29:31-07:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/</loc>
+    <loc>docs/</loc>
     <lastmod>2023-09-24T21:29:31-07:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/categories/paige/</loc>
+    <loc>docs/categories/paige/</loc>
     <lastmod>2023-09-24T21:29:31-07:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/tags/</loc>
+    <loc>docs/tags/</loc>
     <lastmod>2023-09-24T21:29:31-07:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/tags/video/</loc>
+    <loc>docs/tags/video/</loc>
     <lastmod>2023-09-24T21:29:31-07:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/authors/will-faught/</loc>
+    <loc>docs/authors/will-faught/</loc>
     <lastmod>2023-09-24T21:29:31-07:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/tags/link/</loc>
+    <loc>docs/tags/link/</loc>
     <lastmod>2023-09-24T21:29:30-07:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/categories/shortcodes/</loc>
+    <loc>docs/categories/shortcodes/</loc>
     <lastmod>2023-09-18T21:35:40-07:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/shortcodes/</loc>
+    <loc>docs/shortcodes/</loc>
     <lastmod>2023-09-18T21:35:40-07:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/tags/videos/</loc>
+    <loc>docs/tags/videos/</loc>
     <lastmod>2023-09-18T21:35:40-07:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/tags/youtube/</loc>
+    <loc>docs/tags/youtube/</loc>
     <lastmod>2023-09-18T21:35:40-07:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/shortcodes/youtube/</loc>
+    <loc>docs/shortcodes/youtube/</loc>
     <lastmod>2023-09-18T21:35:40-07:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/tags/vimeo/</loc>
+    <loc>docs/tags/vimeo/</loc>
     <lastmod>2023-09-18T21:35:34-07:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/shortcodes/vimeo/</loc>
+    <loc>docs/shortcodes/vimeo/</loc>
     <lastmod>2023-09-18T21:35:34-07:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/tags/figures/</loc>
+    <loc>docs/tags/figures/</loc>
     <lastmod>2023-09-18T21:35:28-07:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/tags/quotations/</loc>
+    <loc>docs/tags/quotations/</loc>
     <lastmod>2023-09-18T21:35:28-07:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/shortcodes/quote/</loc>
+    <loc>docs/shortcodes/quote/</loc>
     <lastmod>2023-09-18T21:35:28-07:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/shortcodes/image/</loc>
+    <loc>docs/shortcodes/image/</loc>
     <lastmod>2023-09-18T21:35:22-07:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/tags/images/</loc>
+    <loc>docs/tags/images/</loc>
     <lastmod>2023-09-18T21:35:22-07:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/authors/richard-cornes/</loc>
+    <loc>docs/authors/richard-cornes/</loc>
     <lastmod>2023-09-18T21:35:22-07:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/charts/</loc>
+    <loc>docs/charts/</loc>
     <lastmod>2023-09-18T21:35:22-07:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/tags/icon/</loc>
+    <loc>docs/tags/icon/</loc>
     <lastmod>2023-09-18T21:35:15-07:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/shortcodes/icon/</loc>
+    <loc>docs/shortcodes/icon/</loc>
     <lastmod>2023-09-18T21:35:15-07:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/tags/web-font/</loc>
+    <loc>docs/tags/web-font/</loc>
     <lastmod>2023-09-18T21:35:15-07:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/shortcodes/figure/</loc>
+    <loc>docs/shortcodes/figure/</loc>
     <lastmod>2023-09-18T21:35:10-07:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/tags/email/</loc>
+    <loc>docs/tags/email/</loc>
     <lastmod>2023-09-18T21:34:58-07:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/shortcodes/email/</loc>
+    <loc>docs/shortcodes/email/</loc>
     <lastmod>2023-09-18T21:34:58-07:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/tags/code/</loc>
+    <loc>docs/tags/code/</loc>
     <lastmod>2023-09-18T21:34:51-07:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/shortcodes/code/</loc>
+    <loc>docs/shortcodes/code/</loc>
     <lastmod>2023-09-18T21:34:51-07:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/tags/gallery/</loc>
+    <loc>docs/tags/gallery/</loc>
     <lastmod>2023-09-18T21:34:01-07:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/shortcodes/gallery/</loc>
+    <loc>docs/shortcodes/gallery/</loc>
     <lastmod>2023-09-18T21:34:01-07:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/tags/alerts/</loc>
+    <loc>docs/tags/alerts/</loc>
     <lastmod>2023-09-18T21:33:35-07:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/tags/privacy/</loc>
+    <loc>docs/tags/privacy/</loc>
     <lastmod>2023-09-18T21:33:24-07:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/tags/shortcodes/</loc>
+    <loc>docs/tags/shortcodes/</loc>
     <lastmod>2023-09-18T21:33:24-07:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/tags/markdown/</loc>
+    <loc>docs/tags/markdown/</loc>
     <lastmod>2023-09-18T21:33:16-07:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/tags/text/</loc>
+    <loc>docs/tags/text/</loc>
     <lastmod>2023-09-18T21:33:16-07:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/tags/katex/</loc>
+    <loc>docs/tags/katex/</loc>
     <lastmod>2023-09-18T21:33:03-07:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/tags/math/</loc>
+    <loc>docs/tags/math/</loc>
     <lastmod>2023-09-18T21:33:03-07:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/tags/typesetting/</loc>
+    <loc>docs/tags/typesetting/</loc>
     <lastmod>2023-09-18T21:33:03-07:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/tags/css/</loc>
+    <loc>docs/tags/css/</loc>
     <lastmod>2023-09-18T21:32:52-07:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/tags/html/</loc>
+    <loc>docs/tags/html/</loc>
     <lastmod>2023-09-18T21:32:52-07:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/tags/emoji/</loc>
+    <loc>docs/tags/emoji/</loc>
     <lastmod>2023-09-18T21:32:40-07:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/categories/customization/</loc>
+    <loc>docs/categories/customization/</loc>
     <lastmod>2023-02-01T00:00:00-08:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/customization/</loc>
+    <loc>docs/customization/</loc>
     <lastmod>2023-02-01T00:00:00-08:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/series/demo/</loc>
+    <loc>docs/series/demo/</loc>
     <lastmod>2023-02-01T00:00:00-08:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/series/</loc>
+    <loc>docs/series/</loc>
     <lastmod>2023-02-01T00:00:00-08:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/tags/show/</loc>
+    <loc>docs/tags/show/</loc>
     <lastmod>2023-02-01T00:00:00-08:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/customization/show/</loc>
+    <loc>docs/customization/show/</loc>
     <lastmod>2023-02-01T00:00:00-08:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/tags/singles/</loc>
+    <loc>docs/tags/singles/</loc>
     <lastmod>2023-02-01T00:00:00-08:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/tags/style/</loc>
+    <loc>docs/tags/style/</loc>
     <lastmod>2023-01-01T00:00:00-08:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/papers/</loc>
+    <loc>docs/papers/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/layouts/cloud/apple/</loc>
+    <loc>docs/layouts/cloud/apple/</loc>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/layouts/cloud/banana/</loc>
+    <loc>docs/layouts/cloud/banana/</loc>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/layouts/cloud/cantaloupe/</loc>
+    <loc>docs/layouts/cloud/cantaloupe/</loc>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/tags/cloud/</loc>
+    <loc>docs/tags/cloud/</loc>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/contact/</loc>
+    <loc>docs/contact/</loc>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/geowind/</loc>
+    <loc>docs/geowind/</loc>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/gales/</loc>
+    <loc>docs/gales/</loc>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/categories/layouts/</loc>
+    <loc>docs/categories/layouts/</loc>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/layouts/</loc>
+    <loc>docs/layouts/</loc>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/tags/search/</loc>
+    <loc>docs/tags/search/</loc>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/search/</loc>
+    <loc>docs/search/</loc>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/tags/sections/</loc>
+    <loc>docs/tags/sections/</loc>
   </url><url>
-    <loc>https://rcornes.github.io/LPD_SLP/westerly/</loc>
+    <loc>docs/westerly/</loc>
   </url>
 </urlset>
