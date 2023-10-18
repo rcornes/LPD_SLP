@@ -62,7 +62,7 @@
 
     
 
-    <id>https://example.com/tags/search/atom.xml</id>
+    <id>https://rcornes.github.io/LPD_SLP/tags/search/atom.xml</id>
 
     
         
@@ -72,7 +72,7 @@
         
 
         
-            <link href="https://example.com/tags/search/atom.xml" rel="self" type="application/atom+xml"/>
+            <link href="https://rcornes.github.io/LPD_SLP/tags/search/atom.xml" rel="self" type="application/atom+xml"/>
         
     
         
@@ -82,7 +82,7 @@
         
 
         
-            <link href="https://example.com/tags/search/" rel="alternate" type="text/html"/>
+            <link href="https://rcornes.github.io/LPD_SLP/tags/search/" rel="alternate" type="text/html"/>
         
     
         
@@ -90,7 +90,7 @@
         
 
         
-            <link href="https://example.com/tags/search/rss.xml" rel="alternate" type="application/rss+xml"/>
+            <link href="https://rcornes.github.io/LPD_SLP/tags/search/rss.xml" rel="alternate" type="application/rss+xml"/>
         
     
 

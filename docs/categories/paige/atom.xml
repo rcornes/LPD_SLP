@@ -126,7 +126,7 @@
 
     
 
-    <id>tag:example.com,2023-09-24:2023-09-24T21:29:31-07:00</id>
+    <id>tag:rcornes.github.io,2023-09-24:2023-09-24T21:29:31-07:00</id>
 
     
         
@@ -136,7 +136,7 @@
         
 
         
-            <link href="https://example.com/categories/paige/atom.xml" rel="self" type="application/atom+xml"/>
+            <link href="https://rcornes.github.io/LPD_SLP/categories/paige/atom.xml" rel="self" type="application/atom+xml"/>
         
     
         
@@ -146,7 +146,7 @@
         
 
         
-            <link href="https://example.com/categories/paige/" rel="alternate" type="text/html"/>
+            <link href="https://rcornes.github.io/LPD_SLP/categories/paige/" rel="alternate" type="text/html"/>
         
     
         
@@ -154,7 +154,7 @@
         
 
         
-            <link href="https://example.com/categories/paige/rss.xml" rel="alternate" type="application/rss+xml"/>
+            <link href="https://rcornes.github.io/LPD_SLP/categories/paige/rss.xml" rel="alternate" type="application/rss+xml"/>
         
     
 
@@ -384,7 +384,7 @@ SOFTWARE.
 </div>]]></content>
             
 
-            <id>tag:example.com,2023-09-18:2023-09-18T21:32:52-07:00</id>
+            <id>tag:rcornes.github.io,2023-09-18:2023-09-18T21:32:52-07:00</id>
 
             
                 
@@ -392,7 +392,7 @@ SOFTWARE.
                 
                     
 
-                    <link href="https://example.com/content/markdown-syntax/" rel="alternate" type="text/html"/>
+                    <link href="https://rcornes.github.io/LPD_SLP/content/markdown-syntax/" rel="alternate" type="text/html"/>
                 
             
 
@@ -505,7 +505,7 @@ SOFTWARE.
 </span></span></span></code></pre></div>]]></content>
             
 
-            <id>tag:example.com,2023-01-01:2023-01-01T00:00:00-08:00</id>
+            <id>tag:rcornes.github.io,2023-01-01:2023-01-01T00:00:00-08:00</id>
 
             
                 
@@ -513,7 +513,7 @@ SOFTWARE.
                 
                     
 
-                    <link href="https://example.com/customization/style/" rel="alternate" type="text/html"/>
+                    <link href="https://rcornes.github.io/LPD_SLP/customization/style/" rel="alternate" type="text/html"/>
                 
             
 
@@ -627,7 +627,7 @@ $$
 $$</p>]]></content>
             
 
-            <id>tag:example.com,2023-09-18:2023-09-18T21:33:03-07:00</id>
+            <id>tag:rcornes.github.io,2023-09-18:2023-09-18T21:33:03-07:00</id>
 
             
                 
@@ -635,7 +635,7 @@ $$</p>]]></content>
                 
                     
 
-                    <link href="https://example.com/content/math-typesetting/" rel="alternate" type="text/html"/>
+                    <link href="https://rcornes.github.io/LPD_SLP/content/math-typesetting/" rel="alternate" type="text/html"/>
                 
             
 
@@ -740,7 +740,7 @@ SOFTWARE.
 </span></span><span class="line"><span class="cl">}</span></span></code></pre></div>]]></content>
             
 
-            <id>tag:example.com,2023-09-18:2023-09-18T21:32:40-07:00</id>
+            <id>tag:rcornes.github.io,2023-09-18:2023-09-18T21:32:40-07:00</id>
 
             
                 
@@ -748,7 +748,7 @@ SOFTWARE.
                 
                     
 
-                    <link href="https://example.com/content/emoji-support/" rel="alternate" type="text/html"/>
+                    <link href="https://rcornes.github.io/LPD_SLP/content/emoji-support/" rel="alternate" type="text/html"/>
                 
             
 
@@ -823,7 +823,7 @@ SOFTWARE.
 </span></span></span></code></pre></div>]]></content>
             
 
-            <id>tag:example.com,2023-09-18:2023-09-18T21:33:35-07:00</id>
+            <id>tag:rcornes.github.io,2023-09-18:2023-09-18T21:33:35-07:00</id>
 
             
                 
@@ -831,7 +831,7 @@ SOFTWARE.
                 
                     
 
-                    <link href="https://example.com/content/simple-alert/" rel="alternate" type="text/html"/>
+                    <link href="https://rcornes.github.io/LPD_SLP/content/simple-alert/" rel="alternate" type="text/html"/>
                 
             
 
@@ -908,7 +908,7 @@ SOFTWARE.
 </span></span></span></code></pre></div>]]></content>
             
 
-            <id>tag:example.com,2023-09-18:2023-09-18T21:21:05-07:00</id>
+            <id>tag:rcornes.github.io,2023-09-18:2023-09-18T21:21:05-07:00</id>
 
             
                 
@@ -916,7 +916,7 @@ SOFTWARE.
                 
                     
 
-                    <link href="https://example.com/content/complex-alert/" rel="alternate" type="text/html"/>
+                    <link href="https://rcornes.github.io/LPD_SLP/content/complex-alert/" rel="alternate" type="text/html"/>
                 
             
 
@@ -991,10 +991,10 @@ SOFTWARE.
 
             
                 <content type="html"><![CDATA[<p>It takes you to the home page.</p>
-<p><a href="https://example.com/content/link/" title="Link">⏎</a></p>]]></content>
+<p><a href="https://rcornes.github.io/LPD_SLP/content/link/" title="Link">⏎</a></p>]]></content>
             
 
-            <id>tag:example.com,2023-09-24:2023-09-24T21:29:30-07:00</id>
+            <id>tag:rcornes.github.io,2023-09-24:2023-09-24T21:29:30-07:00</id>
 
             
                 
@@ -1163,7 +1163,7 @@ SOFTWARE.
 ]]></content>
             
 
-            <id>tag:example.com,2023-09-24:2023-09-24T21:29:31-07:00</id>
+            <id>tag:rcornes.github.io,2023-09-24:2023-09-24T21:29:31-07:00</id>
 
             
                 
@@ -1171,7 +1171,7 @@ SOFTWARE.
                 
                     
 
-                    <link href="https://example.com/content/video/" rel="alternate" type="text/html"/>
+                    <link href="https://rcornes.github.io/LPD_SLP/content/video/" rel="alternate" type="text/html"/>
                 
             
 
@@ -1332,7 +1332,7 @@ SOFTWARE.
 </div>]]></content>
             
 
-            <id>tag:example.com,2023-09-18:2023-09-18T21:35:28-07:00</id>
+            <id>tag:rcornes.github.io,2023-09-18:2023-09-18T21:35:28-07:00</id>
 
             
                 
@@ -1340,7 +1340,7 @@ SOFTWARE.
                 
                     
 
-                    <link href="https://example.com/shortcodes/quote/" rel="alternate" type="text/html"/>
+                    <link href="https://rcornes.github.io/LPD_SLP/shortcodes/quote/" rel="alternate" type="text/html"/>
                 
             
 
@@ -1476,7 +1476,7 @@ SOFTWARE.
 </p>]]></content>
             
 
-            <id>tag:example.com,2023-09-18:2023-09-18T21:35:15-07:00</id>
+            <id>tag:rcornes.github.io,2023-09-18:2023-09-18T21:35:15-07:00</id>
 
             
                 
@@ -1484,7 +1484,7 @@ SOFTWARE.
                 
                     
 
-                    <link href="https://example.com/shortcodes/icon/" rel="alternate" type="text/html"/>
+                    <link href="https://rcornes.github.io/LPD_SLP/shortcodes/icon/" rel="alternate" type="text/html"/>
                 
             
 
@@ -1781,7 +1781,7 @@ SOFTWARE.
 </div>]]></content>
             
 
-            <id>tag:example.com,2023-09-18:2023-09-18T21:34:51-07:00</id>
+            <id>tag:rcornes.github.io,2023-09-18:2023-09-18T21:34:51-07:00</id>
 
             
                 
@@ -1789,7 +1789,7 @@ SOFTWARE.
                 
                     
 
-                    <link href="https://example.com/shortcodes/code/" rel="alternate" type="text/html"/>
+                    <link href="https://rcornes.github.io/LPD_SLP/shortcodes/code/" rel="alternate" type="text/html"/>
                 
             
 
@@ -1884,7 +1884,7 @@ SOFTWARE.
 </span></span></span></code></pre></div>]]></content>
             
 
-            <id>tag:example.com,2023-02-01:2023-02-01T00:00:00-08:00</id>
+            <id>tag:rcornes.github.io,2023-02-01:2023-02-01T00:00:00-08:00</id>
 
             
                 
@@ -1892,7 +1892,7 @@ SOFTWARE.
                 
                     
 
-                    <link href="https://example.com/customization/show/" rel="alternate" type="text/html"/>
+                    <link href="https://rcornes.github.io/LPD_SLP/customization/show/" rel="alternate" type="text/html"/>
                 
             
 

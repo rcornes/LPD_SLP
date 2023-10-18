@@ -37,7 +37,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0"  xml:lang="en"  xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <atom:link href="https://example.com/tags/text/rss.xml" rel="self" type="application/rss+xml"/>
+        <atom:link href="https://rcornes.github.io/LPD_SLP/tags/text/rss.xml" rel="self" type="application/rss+xml"/>
 
         
             <copyright>© Richard Cornes</copyright>
@@ -53,7 +53,7 @@
             <lastBuildDate>Mon, 18 Sep 2023 21:33:16 -0700</lastBuildDate>
         
 
-        <link>https://example.com/tags/text/</link>
+        <link>https://rcornes.github.io/LPD_SLP/tags/text/</link>
 
         
             <managingEditor>will.faught@example.com (Will Faught)</managingEditor>

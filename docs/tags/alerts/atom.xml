@@ -68,7 +68,7 @@
 
     
 
-    <id>tag:example.com,2023-09-18:2023-09-18T21:33:35-07:00</id>
+    <id>tag:rcornes.github.io,2023-09-18:2023-09-18T21:33:35-07:00</id>
 
     
         
@@ -78,7 +78,7 @@
         
 
         
-            <link href="https://example.com/tags/alerts/atom.xml" rel="self" type="application/atom+xml"/>
+            <link href="https://rcornes.github.io/LPD_SLP/tags/alerts/atom.xml" rel="self" type="application/atom+xml"/>
         
     
         
@@ -88,7 +88,7 @@
         
 
         
-            <link href="https://example.com/tags/alerts/" rel="alternate" type="text/html"/>
+            <link href="https://rcornes.github.io/LPD_SLP/tags/alerts/" rel="alternate" type="text/html"/>
         
     
         
@@ -96,7 +96,7 @@
         
 
         
-            <link href="https://example.com/tags/alerts/rss.xml" rel="alternate" type="application/rss+xml"/>
+            <link href="https://rcornes.github.io/LPD_SLP/tags/alerts/rss.xml" rel="alternate" type="application/rss+xml"/>
         
     
 
@@ -167,7 +167,7 @@
 </span></span></span></code></pre></div>]]></content>
             
 
-            <id>tag:example.com,2023-09-18:2023-09-18T21:33:35-07:00</id>
+            <id>tag:rcornes.github.io,2023-09-18:2023-09-18T21:33:35-07:00</id>
 
             
                 
@@ -175,7 +175,7 @@
                 
                     
 
-                    <link href="https://example.com/content/simple-alert/" rel="alternate" type="text/html"/>
+                    <link href="https://rcornes.github.io/LPD_SLP/content/simple-alert/" rel="alternate" type="text/html"/>
                 
             
 
@@ -252,7 +252,7 @@
 </span></span></span></code></pre></div>]]></content>
             
 
-            <id>tag:example.com,2023-09-18:2023-09-18T21:21:05-07:00</id>
+            <id>tag:rcornes.github.io,2023-09-18:2023-09-18T21:21:05-07:00</id>
 
             
                 
@@ -260,7 +260,7 @@
                 
                     
 
-                    <link href="https://example.com/content/complex-alert/" rel="alternate" type="text/html"/>
+                    <link href="https://rcornes.github.io/LPD_SLP/content/complex-alert/" rel="alternate" type="text/html"/>
                 
             
 

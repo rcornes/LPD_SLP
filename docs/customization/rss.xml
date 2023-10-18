@@ -41,7 +41,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0"  xml:lang="en"  xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <atom:link href="https://example.com/customization/rss.xml" rel="self" type="application/rss+xml"/>
+        <atom:link href="https://rcornes.github.io/LPD_SLP/customization/rss.xml" rel="self" type="application/rss+xml"/>
 
         
             <copyright>© Richard Cornes</copyright>
@@ -57,7 +57,7 @@
             <lastBuildDate>Wed, 01 Feb 2023 00:00:00 PST</lastBuildDate>
         
 
-        <link>https://example.com/customization/</link>
+        <link>https://rcornes.github.io/LPD_SLP/customization/</link>
 
         
             <managingEditor>will.faught@example.com (Will Faught)</managingEditor>
@@ -156,10 +156,10 @@
 </span></span></span></code></pre></div>]]></description>
                 
 
-                <guid  isPermaLink="false" >tag:example.com,2023-01-01:2023-01-01T00:00:00-08:00</guid>
+                <guid  isPermaLink="false" >tag:rcornes.github.io,2023-01-01:2023-01-01T00:00:00-08:00</guid>
 
                 
-                    <link>https://example.com/customization/style/</link>
+                    <link>https://rcornes.github.io/LPD_SLP/customization/style/</link>
                 
 
                 
@@ -239,10 +239,10 @@
 </span></span></span></code></pre></div>]]></description>
                 
 
-                <guid  isPermaLink="false" >tag:example.com,2023-02-01:2023-02-01T00:00:00-08:00</guid>
+                <guid  isPermaLink="false" >tag:rcornes.github.io,2023-02-01:2023-02-01T00:00:00-08:00</guid>
 
                 
-                    <link>https://example.com/customization/show/</link>
+                    <link>https://rcornes.github.io/LPD_SLP/customization/show/</link>
                 
 
                 

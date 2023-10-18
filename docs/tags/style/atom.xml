@@ -64,7 +64,7 @@
 
     
 
-    <id>tag:example.com,2023-01-01:2023-01-01T00:00:00-08:00</id>
+    <id>tag:rcornes.github.io,2023-01-01:2023-01-01T00:00:00-08:00</id>
 
     
         
@@ -74,7 +74,7 @@
         
 
         
-            <link href="https://example.com/tags/style/atom.xml" rel="self" type="application/atom+xml"/>
+            <link href="https://rcornes.github.io/LPD_SLP/tags/style/atom.xml" rel="self" type="application/atom+xml"/>
         
     
         
@@ -84,7 +84,7 @@
         
 
         
-            <link href="https://example.com/tags/style/" rel="alternate" type="text/html"/>
+            <link href="https://rcornes.github.io/LPD_SLP/tags/style/" rel="alternate" type="text/html"/>
         
     
         
@@ -92,7 +92,7 @@
         
 
         
-            <link href="https://example.com/tags/style/rss.xml" rel="alternate" type="application/rss+xml"/>
+            <link href="https://rcornes.github.io/LPD_SLP/tags/style/rss.xml" rel="alternate" type="application/rss+xml"/>
         
     
 
@@ -201,7 +201,7 @@
 </span></span></span></code></pre></div>]]></content>
             
 
-            <id>tag:example.com,2023-01-01:2023-01-01T00:00:00-08:00</id>
+            <id>tag:rcornes.github.io,2023-01-01:2023-01-01T00:00:00-08:00</id>
 
             
                 
@@ -209,7 +209,7 @@
                 
                     
 
-                    <link href="https://example.com/customization/style/" rel="alternate" type="text/html"/>
+                    <link href="https://rcornes.github.io/LPD_SLP/customization/style/" rel="alternate" type="text/html"/>
                 
             
 

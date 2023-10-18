@@ -58,7 +58,7 @@
 
     
 
-    <id>https://example.com/contact/atom.xml</id>
+    <id>https://rcornes.github.io/LPD_SLP/contact/atom.xml</id>
 
     
         
@@ -68,7 +68,7 @@
         
 
         
-            <link href="https://example.com/contact/atom.xml" rel="self" type="application/atom+xml"/>
+            <link href="https://rcornes.github.io/LPD_SLP/contact/atom.xml" rel="self" type="application/atom+xml"/>
         
     
         
@@ -78,7 +78,7 @@
         
 
         
-            <link href="https://example.com/contact/" rel="alternate" type="text/html"/>
+            <link href="https://rcornes.github.io/LPD_SLP/contact/" rel="alternate" type="text/html"/>
         
     
         
@@ -86,7 +86,7 @@
         
 
         
-            <link href="https://example.com/contact/rss.xml" rel="alternate" type="application/rss+xml"/>
+            <link href="https://rcornes.github.io/LPD_SLP/contact/rss.xml" rel="alternate" type="application/rss+xml"/>
         
     
 

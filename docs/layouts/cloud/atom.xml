@@ -66,7 +66,7 @@
 
     
 
-    <id>https://example.com/layouts/cloud/atom.xml</id>
+    <id>https://rcornes.github.io/LPD_SLP/layouts/cloud/atom.xml</id>
 
     
         
@@ -76,7 +76,7 @@
         
 
         
-            <link href="https://example.com/layouts/cloud/atom.xml" rel="self" type="application/atom+xml"/>
+            <link href="https://rcornes.github.io/LPD_SLP/layouts/cloud/atom.xml" rel="self" type="application/atom+xml"/>
         
     
         
@@ -86,7 +86,7 @@
         
 
         
-            <link href="https://example.com/layouts/cloud/" rel="alternate" type="text/html"/>
+            <link href="https://rcornes.github.io/LPD_SLP/layouts/cloud/" rel="alternate" type="text/html"/>
         
     
         
@@ -94,7 +94,7 @@
         
 
         
-            <link href="https://example.com/layouts/cloud/rss.xml" rel="alternate" type="application/rss+xml"/>
+            <link href="https://rcornes.github.io/LPD_SLP/layouts/cloud/rss.xml" rel="alternate" type="application/rss+xml"/>
         
     
 

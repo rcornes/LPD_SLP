@@ -64,7 +64,7 @@
 
     
 
-    <id>tag:example.com,2023-09-18:2023-09-18T21:35:15-07:00</id>
+    <id>tag:rcornes.github.io,2023-09-18:2023-09-18T21:35:15-07:00</id>
 
     
         
@@ -74,7 +74,7 @@
         
 
         
-            <link href="https://example.com/tags/web-font/atom.xml" rel="self" type="application/atom+xml"/>
+            <link href="https://rcornes.github.io/LPD_SLP/tags/web-font/atom.xml" rel="self" type="application/atom+xml"/>
         
     
         
@@ -84,7 +84,7 @@
         
 
         
-            <link href="https://example.com/tags/web-font/" rel="alternate" type="text/html"/>
+            <link href="https://rcornes.github.io/LPD_SLP/tags/web-font/" rel="alternate" type="text/html"/>
         
     
         
@@ -92,7 +92,7 @@
         
 
         
-            <link href="https://example.com/tags/web-font/rss.xml" rel="alternate" type="application/rss+xml"/>
+            <link href="https://rcornes.github.io/LPD_SLP/tags/web-font/rss.xml" rel="alternate" type="application/rss+xml"/>
         
     
 
@@ -224,7 +224,7 @@
 </p>]]></content>
             
 
-            <id>tag:example.com,2023-09-18:2023-09-18T21:35:15-07:00</id>
+            <id>tag:rcornes.github.io,2023-09-18:2023-09-18T21:35:15-07:00</id>
 
             
                 
@@ -232,7 +232,7 @@
                 
                     
 
-                    <link href="https://example.com/shortcodes/icon/" rel="alternate" type="text/html"/>
+                    <link href="https://rcornes.github.io/LPD_SLP/shortcodes/icon/" rel="alternate" type="text/html"/>
                 
             
 

@@ -64,7 +64,7 @@
 
     
 
-    <id>tag:example.com,2023-09-18:2023-09-18T21:33:03-07:00</id>
+    <id>tag:rcornes.github.io,2023-09-18:2023-09-18T21:33:03-07:00</id>
 
     
         
@@ -74,7 +74,7 @@
         
 
         
-            <link href="https://example.com/tags/katex/atom.xml" rel="self" type="application/atom+xml"/>
+            <link href="https://rcornes.github.io/LPD_SLP/tags/katex/atom.xml" rel="self" type="application/atom+xml"/>
         
     
         
@@ -84,7 +84,7 @@
         
 
         
-            <link href="https://example.com/tags/katex/" rel="alternate" type="text/html"/>
+            <link href="https://rcornes.github.io/LPD_SLP/tags/katex/" rel="alternate" type="text/html"/>
         
     
         
@@ -92,7 +92,7 @@
         
 
         
-            <link href="https://example.com/tags/katex/rss.xml" rel="alternate" type="application/rss+xml"/>
+            <link href="https://rcornes.github.io/LPD_SLP/tags/katex/rss.xml" rel="alternate" type="application/rss+xml"/>
         
     
 
@@ -202,7 +202,7 @@ $$
 $$</p>]]></content>
             
 
-            <id>tag:example.com,2023-09-18:2023-09-18T21:33:03-07:00</id>
+            <id>tag:rcornes.github.io,2023-09-18:2023-09-18T21:33:03-07:00</id>
 
             
                 
@@ -210,7 +210,7 @@ $$</p>]]></content>
                 
                     
 
-                    <link href="https://example.com/content/math-typesetting/" rel="alternate" type="text/html"/>
+                    <link href="https://rcornes.github.io/LPD_SLP/content/math-typesetting/" rel="alternate" type="text/html"/>
                 
             
 

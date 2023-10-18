@@ -60,7 +60,7 @@
 
     
 
-    <id>https://example.com/tags/sections/atom.xml</id>
+    <id>https://rcornes.github.io/LPD_SLP/tags/sections/atom.xml</id>
 
     
         
@@ -70,7 +70,7 @@
         
 
         
-            <link href="https://example.com/tags/sections/atom.xml" rel="self" type="application/atom+xml"/>
+            <link href="https://rcornes.github.io/LPD_SLP/tags/sections/atom.xml" rel="self" type="application/atom+xml"/>
         
     
         
@@ -80,7 +80,7 @@
         
 
         
-            <link href="https://example.com/tags/sections/" rel="alternate" type="text/html"/>
+            <link href="https://rcornes.github.io/LPD_SLP/tags/sections/" rel="alternate" type="text/html"/>
         
     
         
@@ -88,7 +88,7 @@
         
 
         
-            <link href="https://example.com/tags/sections/rss.xml" rel="alternate" type="application/rss+xml"/>
+            <link href="https://rcornes.github.io/LPD_SLP/tags/sections/rss.xml" rel="alternate" type="application/rss+xml"/>
         
     
 

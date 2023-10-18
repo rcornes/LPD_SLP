@@ -68,7 +68,7 @@
 
     
 
-    <id>tag:example.com,2023-02-01:2023-02-01T00:00:00-08:00</id>
+    <id>tag:rcornes.github.io,2023-02-01:2023-02-01T00:00:00-08:00</id>
 
     
         
@@ -78,7 +78,7 @@
         
 
         
-            <link href="https://example.com/series/demo/atom.xml" rel="self" type="application/atom+xml"/>
+            <link href="https://rcornes.github.io/LPD_SLP/series/demo/atom.xml" rel="self" type="application/atom+xml"/>
         
     
         
@@ -88,7 +88,7 @@
         
 
         
-            <link href="https://example.com/series/demo/" rel="alternate" type="text/html"/>
+            <link href="https://rcornes.github.io/LPD_SLP/series/demo/" rel="alternate" type="text/html"/>
         
     
         
@@ -96,7 +96,7 @@
         
 
         
-            <link href="https://example.com/series/demo/rss.xml" rel="alternate" type="application/rss+xml"/>
+            <link href="https://rcornes.github.io/LPD_SLP/series/demo/rss.xml" rel="alternate" type="application/rss+xml"/>
         
     
 
@@ -207,7 +207,7 @@
 </span></span></span></code></pre></div>]]></content>
             
 
-            <id>tag:example.com,2023-01-01:2023-01-01T00:00:00-08:00</id>
+            <id>tag:rcornes.github.io,2023-01-01:2023-01-01T00:00:00-08:00</id>
 
             
                 
@@ -215,7 +215,7 @@
                 
                     
 
-                    <link href="https://example.com/customization/style/" rel="alternate" type="text/html"/>
+                    <link href="https://rcornes.github.io/LPD_SLP/customization/style/" rel="alternate" type="text/html"/>
                 
             
 
@@ -310,7 +310,7 @@
 </span></span></span></code></pre></div>]]></content>
             
 
-            <id>tag:example.com,2023-02-01:2023-02-01T00:00:00-08:00</id>
+            <id>tag:rcornes.github.io,2023-02-01:2023-02-01T00:00:00-08:00</id>
 
             
                 
@@ -318,7 +318,7 @@
                 
                     
 
-                    <link href="https://example.com/customization/show/" rel="alternate" type="text/html"/>
+                    <link href="https://rcornes.github.io/LPD_SLP/customization/show/" rel="alternate" type="text/html"/>
                 
             
 

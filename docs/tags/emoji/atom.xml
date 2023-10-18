@@ -64,7 +64,7 @@
 
     
 
-    <id>tag:example.com,2023-09-18:2023-09-18T21:32:40-07:00</id>
+    <id>tag:rcornes.github.io,2023-09-18:2023-09-18T21:32:40-07:00</id>
 
     
         
@@ -74,7 +74,7 @@
         
 
         
-            <link href="https://example.com/tags/emoji/atom.xml" rel="self" type="application/atom+xml"/>
+            <link href="https://rcornes.github.io/LPD_SLP/tags/emoji/atom.xml" rel="self" type="application/atom+xml"/>
         
     
         
@@ -84,7 +84,7 @@
         
 
         
-            <link href="https://example.com/tags/emoji/" rel="alternate" type="text/html"/>
+            <link href="https://rcornes.github.io/LPD_SLP/tags/emoji/" rel="alternate" type="text/html"/>
         
     
         
@@ -92,7 +92,7 @@
         
 
         
-            <link href="https://example.com/tags/emoji/rss.xml" rel="alternate" type="application/rss+xml"/>
+            <link href="https://rcornes.github.io/LPD_SLP/tags/emoji/rss.xml" rel="alternate" type="application/rss+xml"/>
         
     
 
@@ -193,7 +193,7 @@ SOFTWARE.
 </span></span><span class="line"><span class="cl">}</span></span></code></pre></div>]]></content>
             
 
-            <id>tag:example.com,2023-09-18:2023-09-18T21:32:40-07:00</id>
+            <id>tag:rcornes.github.io,2023-09-18:2023-09-18T21:32:40-07:00</id>
 
             
                 
@@ -201,7 +201,7 @@ SOFTWARE.
                 
                     
 
-                    <link href="https://example.com/content/emoji-support/" rel="alternate" type="text/html"/>
+                    <link href="https://rcornes.github.io/LPD_SLP/content/emoji-support/" rel="alternate" type="text/html"/>
                 
             
 

@@ -57,7 +57,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0"  xml:lang="en"  xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <atom:link href="https://example.com/shortcodes/rss.xml" rel="self" type="application/rss+xml"/>
+        <atom:link href="https://rcornes.github.io/LPD_SLP/shortcodes/rss.xml" rel="self" type="application/rss+xml"/>
 
         
             <copyright>© Richard Cornes</copyright>
@@ -73,7 +73,7 @@
             <lastBuildDate>Mon, 18 Sep 2023 21:35:40 -0700</lastBuildDate>
         
 
-        <link>https://example.com/shortcodes/</link>
+        <link>https://rcornes.github.io/LPD_SLP/shortcodes/</link>
 
         
             <managingEditor>will.faught@example.com (Will Faught)</managingEditor>
@@ -220,10 +220,10 @@
 </div>]]></description>
                 
 
-                <guid  isPermaLink="false" >tag:example.com,2023-09-18:2023-09-18T21:35:28-07:00</guid>
+                <guid  isPermaLink="false" >tag:rcornes.github.io,2023-09-18:2023-09-18T21:35:28-07:00</guid>
 
                 
-                    <link>https://example.com/shortcodes/quote/</link>
+                    <link>https://rcornes.github.io/LPD_SLP/shortcodes/quote/</link>
                 
 
                 
@@ -344,10 +344,10 @@
 </p>]]></description>
                 
 
-                <guid  isPermaLink="false" >tag:example.com,2023-09-18:2023-09-18T21:35:15-07:00</guid>
+                <guid  isPermaLink="false" >tag:rcornes.github.io,2023-09-18:2023-09-18T21:35:15-07:00</guid>
 
                 
-                    <link>https://example.com/shortcodes/icon/</link>
+                    <link>https://rcornes.github.io/LPD_SLP/shortcodes/icon/</link>
                 
 
                 
@@ -629,10 +629,10 @@
 </div>]]></description>
                 
 
-                <guid  isPermaLink="false" >tag:example.com,2023-09-18:2023-09-18T21:34:51-07:00</guid>
+                <guid  isPermaLink="false" >tag:rcornes.github.io,2023-09-18:2023-09-18T21:34:51-07:00</guid>
 
                 
-                    <link>https://example.com/shortcodes/code/</link>
+                    <link>https://rcornes.github.io/LPD_SLP/shortcodes/code/</link>
                 
 
                 

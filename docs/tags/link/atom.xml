@@ -64,7 +64,7 @@
 
     
 
-    <id>tag:example.com,2023-09-24:2023-09-24T21:29:30-07:00</id>
+    <id>tag:rcornes.github.io,2023-09-24:2023-09-24T21:29:30-07:00</id>
 
     
         
@@ -74,7 +74,7 @@
         
 
         
-            <link href="https://example.com/tags/link/atom.xml" rel="self" type="application/atom+xml"/>
+            <link href="https://rcornes.github.io/LPD_SLP/tags/link/atom.xml" rel="self" type="application/atom+xml"/>
         
     
         
@@ -84,7 +84,7 @@
         
 
         
-            <link href="https://example.com/tags/link/" rel="alternate" type="text/html"/>
+            <link href="https://rcornes.github.io/LPD_SLP/tags/link/" rel="alternate" type="text/html"/>
         
     
         
@@ -92,7 +92,7 @@
         
 
         
-            <link href="https://example.com/tags/link/rss.xml" rel="alternate" type="application/rss+xml"/>
+            <link href="https://rcornes.github.io/LPD_SLP/tags/link/rss.xml" rel="alternate" type="application/rss+xml"/>
         
     
 
@@ -163,10 +163,10 @@
 
             
                 <content type="html"><![CDATA[<p>It takes you to the home page.</p>
-<p><a href="https://example.com/content/link/" title="Link">⏎</a></p>]]></content>
+<p><a href="https://rcornes.github.io/LPD_SLP/content/link/" title="Link">⏎</a></p>]]></content>
             
 
-            <id>tag:example.com,2023-09-24:2023-09-24T21:29:30-07:00</id>
+            <id>tag:rcornes.github.io,2023-09-24:2023-09-24T21:29:30-07:00</id>
 
             
                 

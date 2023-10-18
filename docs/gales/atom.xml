@@ -58,7 +58,7 @@
 
     
 
-    <id>https://example.com/gales/atom.xml</id>
+    <id>https://rcornes.github.io/LPD_SLP/gales/atom.xml</id>
 
     
         
@@ -68,7 +68,7 @@
         
 
         
-            <link href="https://example.com/gales/atom.xml" rel="self" type="application/atom+xml"/>
+            <link href="https://rcornes.github.io/LPD_SLP/gales/atom.xml" rel="self" type="application/atom+xml"/>
         
     
         
@@ -78,7 +78,7 @@
         
 
         
-            <link href="https://example.com/gales/" rel="alternate" type="text/html"/>
+            <link href="https://rcornes.github.io/LPD_SLP/gales/" rel="alternate" type="text/html"/>
         
     
         
@@ -86,7 +86,7 @@
         
 
         
-            <link href="https://example.com/gales/rss.xml" rel="alternate" type="application/rss+xml"/>
+            <link href="https://rcornes.github.io/LPD_SLP/gales/rss.xml" rel="alternate" type="application/rss+xml"/>
         
     
 

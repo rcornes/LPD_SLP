@@ -74,7 +74,7 @@
 
     
 
-    <id>tag:example.com,2023-09-18:2023-09-18T21:35:28-07:00</id>
+    <id>tag:rcornes.github.io,2023-09-18:2023-09-18T21:35:28-07:00</id>
 
     
         
@@ -84,7 +84,7 @@
         
 
         
-            <link href="https://example.com/tags/figures/atom.xml" rel="self" type="application/atom+xml"/>
+            <link href="https://rcornes.github.io/LPD_SLP/tags/figures/atom.xml" rel="self" type="application/atom+xml"/>
         
     
         
@@ -94,7 +94,7 @@
         
 
         
-            <link href="https://example.com/tags/figures/" rel="alternate" type="text/html"/>
+            <link href="https://rcornes.github.io/LPD_SLP/tags/figures/" rel="alternate" type="text/html"/>
         
     
         
@@ -102,7 +102,7 @@
         
 
         
-            <link href="https://example.com/tags/figures/rss.xml" rel="alternate" type="application/rss+xml"/>
+            <link href="https://rcornes.github.io/LPD_SLP/tags/figures/rss.xml" rel="alternate" type="application/rss+xml"/>
         
     
 
@@ -259,7 +259,7 @@
 </div>]]></content>
             
 
-            <id>tag:example.com,2023-09-18:2023-09-18T21:35:28-07:00</id>
+            <id>tag:rcornes.github.io,2023-09-18:2023-09-18T21:35:28-07:00</id>
 
             
                 
@@ -267,7 +267,7 @@
                 
                     
 
-                    <link href="https://example.com/shortcodes/quote/" rel="alternate" type="text/html"/>
+                    <link href="https://rcornes.github.io/LPD_SLP/shortcodes/quote/" rel="alternate" type="text/html"/>
                 
             
 
@@ -564,7 +564,7 @@
 </div>]]></content>
             
 
-            <id>tag:example.com,2023-09-18:2023-09-18T21:34:51-07:00</id>
+            <id>tag:rcornes.github.io,2023-09-18:2023-09-18T21:34:51-07:00</id>
 
             
                 
@@ -572,7 +572,7 @@
                 
                     
 
-                    <link href="https://example.com/shortcodes/code/" rel="alternate" type="text/html"/>
+                    <link href="https://rcornes.github.io/LPD_SLP/shortcodes/code/" rel="alternate" type="text/html"/>
                 
             
 
