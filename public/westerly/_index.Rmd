@@ -1,0 +1,70 @@
+---
+title: Westerly Index
+---
+
+# Paris-London Westerly Index
+
+The following plots shown the monthly mean SLP values at London and
+Paris and the normalized difference in SLP at the two sites, which
+provides a measure of zonal wind flow.
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse=TRUE)
+```
+
+
+```{r, echo=FALSE,out.width="100%",warning=FALSE,message=FALSE}
+library(dplyr)
+library(tidyr)
+library(lubridate)
+library(dygraphs)
+library(xts)
+
+lmonth <- read.csv("../../../data/London_month.csv") %>%
+    gather(month,data,-year) %>%
+    mutate(month=factor(month,levels=month.abb,labels=1:12),month=as.numeric(month),series="London")
+
+pmonth <- read.csv("../../../data/Paris_month.csv") %>%
+    gather(month,data,-year) %>%
+    mutate(month=factor(month,levels=month.abb,labels=1:12),month=as.numeric(month),series="Paris")
+
+DF <- rbind(lmonth,pmonth) %>%
+    mutate(date=make_date(year,month)) %>%
+    spread(series,data)
+
+dygraph(xts(x=DF[,c("London","Paris")], order.by=DF$date),
+        main = "London/Paris Monthly Mean MSLP",xlab="Date",ylab="MSLP (hPa)") %>% 
+	dyRangeSelector(dateWindow = c(today()-years(10), today())) %>%
+	dyRoller(rollPeriod = 0)
+
+```
+
+
+```{r, echo=FALSE, out.width="100%",warning=FALSE,message=FALSE}
+PL <- read.csv("../../../data/Paris_London_Index.csv") %>%
+    select(year,DJFM:SON)
+    
+    dygraph(xts(x=PL[,c("DJF")], order.by=make_date(PL$year)), main = "Paris-London Westerly Index | Winter (DJF)",xlab="Year",ylab="PL Index") %>%
+    dyLimit(0,strokePattern="solid") %>%
+    dyRoller(rollPeriod = 0)
+	
+    dygraph(xts(x=PL[,c("DJFM")], order.by=make_date(PL$year)), main = "Paris-London Westerly Index | Extended Winter (DJFM)",xlab="Year",ylab="PL Index") %>%
+    dyLimit(0,strokePattern="solid") %>%
+    dyRangeSelector() %>%
+    dyRoller(rollPeriod = 0)
+
+    dygraph(xts(x=PL[,c("MAM")], order.by=make_date(PL$year)), main = "Paris-London Westerly Index | Spring (MAM)",xlab="Year",ylab="PL Index") %>%
+    dyLimit(0,strokePattern="solid") %>%
+    dyRangeSelector() %>%
+    dyRoller(rollPeriod = 0)
+
+    dygraph(xts(x=PL[,c("JJA")], order.by=make_date(PL$year)), main = "Paris-London Westerly Index | Summer (JJA)",xlab="Year",ylab="PL Index") %>%
+    dyLimit(0,strokePattern="solid") %>%
+    dyRangeSelector() %>%
+    dyRoller(rollPeriod = 0)
+
+    dygraph(xts(x=PL[,c("SON")], order.by=make_date(PL$year)), main = "Paris-London Westerly Index | Autumn (SON)",xlab="Year",ylab="PL Index") %>%
+    dyLimit(0,strokePattern="solid") %>%
+    dyRangeSelector() %>%
+    dyRoller(rollPeriod = 0)
+```
