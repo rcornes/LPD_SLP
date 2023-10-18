@@ -140,7 +140,7 @@
         
 
         
-            <link href="https://rcornes.github.io/LPD_SLP/atom.xml" rel="self" type="application/atom+xml"/>
+            <link href="https://rcornes.github.io/LPD_SLP/docs/atom.xml" rel="self" type="application/atom+xml"/>
         
     
         
@@ -150,7 +150,7 @@
         
 
         
-            <link href="https://rcornes.github.io/LPD_SLP/" rel="alternate" type="text/html"/>
+            <link href="https://rcornes.github.io/LPD_SLP/docs/" rel="alternate" type="text/html"/>
         
     
         
@@ -158,7 +158,7 @@
         
 
         
-            <link href="https://rcornes.github.io/LPD_SLP/index.json" rel="alternate" type="application/json"/>
+            <link href="https://rcornes.github.io/LPD_SLP/docs/index.json" rel="alternate" type="application/json"/>
         
     
         
@@ -166,7 +166,7 @@
         
 
         
-            <link href="https://rcornes.github.io/LPD_SLP/rss.xml" rel="alternate" type="application/rss+xml"/>
+            <link href="https://rcornes.github.io/LPD_SLP/docs/rss.xml" rel="alternate" type="application/rss+xml"/>
         
     
 
@@ -404,7 +404,7 @@ SOFTWARE.
                 
                     
 
-                    <link href="https://rcornes.github.io/LPD_SLP/content/markdown-syntax/" rel="alternate" type="text/html"/>
+                    <link href="https://rcornes.github.io/LPD_SLP/docs/content/markdown-syntax/" rel="alternate" type="text/html"/>
                 
             
 
@@ -525,7 +525,7 @@ SOFTWARE.
                 
                     
 
-                    <link href="https://rcornes.github.io/LPD_SLP/customization/style/" rel="alternate" type="text/html"/>
+                    <link href="https://rcornes.github.io/LPD_SLP/docs/customization/style/" rel="alternate" type="text/html"/>
                 
             
 
@@ -647,7 +647,7 @@ $$</p>]]></content>
                 
                     
 
-                    <link href="https://rcornes.github.io/LPD_SLP/content/math-typesetting/" rel="alternate" type="text/html"/>
+                    <link href="https://rcornes.github.io/LPD_SLP/docs/content/math-typesetting/" rel="alternate" type="text/html"/>
                 
             
 
@@ -760,7 +760,7 @@ SOFTWARE.
                 
                     
 
-                    <link href="https://rcornes.github.io/LPD_SLP/content/emoji-support/" rel="alternate" type="text/html"/>
+                    <link href="https://rcornes.github.io/LPD_SLP/docs/content/emoji-support/" rel="alternate" type="text/html"/>
                 
             
 
@@ -843,7 +843,7 @@ SOFTWARE.
                 
                     
 
-                    <link href="https://rcornes.github.io/LPD_SLP/content/simple-alert/" rel="alternate" type="text/html"/>
+                    <link href="https://rcornes.github.io/LPD_SLP/docs/content/simple-alert/" rel="alternate" type="text/html"/>
                 
             
 
@@ -928,7 +928,7 @@ SOFTWARE.
                 
                     
 
-                    <link href="https://rcornes.github.io/LPD_SLP/content/complex-alert/" rel="alternate" type="text/html"/>
+                    <link href="https://rcornes.github.io/LPD_SLP/docs/content/complex-alert/" rel="alternate" type="text/html"/>
                 
             
 
@@ -1003,7 +1003,7 @@ SOFTWARE.
 
             
                 <content type="html"><![CDATA[<p>It takes you to the home page.</p>
-<p><a href="https://rcornes.github.io/LPD_SLP/content/link/" title="Link">⏎</a></p>]]></content>
+<p><a href="https://rcornes.github.io/LPD_SLP/docs/content/link/" title="Link">⏎</a></p>]]></content>
             
 
             <id>tag:rcornes.github.io,2023-09-24:2023-09-24T21:29:30-07:00</id>
@@ -1183,7 +1183,7 @@ SOFTWARE.
                 
                     
 
-                    <link href="https://rcornes.github.io/LPD_SLP/content/video/" rel="alternate" type="text/html"/>
+                    <link href="https://rcornes.github.io/LPD_SLP/docs/content/video/" rel="alternate" type="text/html"/>
                 
             
 
@@ -1352,7 +1352,7 @@ SOFTWARE.
                 
                     
 
-                    <link href="https://rcornes.github.io/LPD_SLP/shortcodes/quote/" rel="alternate" type="text/html"/>
+                    <link href="https://rcornes.github.io/LPD_SLP/docs/shortcodes/quote/" rel="alternate" type="text/html"/>
                 
             
 
@@ -1496,7 +1496,7 @@ SOFTWARE.
                 
                     
 
-                    <link href="https://rcornes.github.io/LPD_SLP/shortcodes/icon/" rel="alternate" type="text/html"/>
+                    <link href="https://rcornes.github.io/LPD_SLP/docs/shortcodes/icon/" rel="alternate" type="text/html"/>
                 
             
 
@@ -1801,7 +1801,7 @@ SOFTWARE.
                 
                     
 
-                    <link href="https://rcornes.github.io/LPD_SLP/shortcodes/code/" rel="alternate" type="text/html"/>
+                    <link href="https://rcornes.github.io/LPD_SLP/docs/shortcodes/code/" rel="alternate" type="text/html"/>
                 
             
 
@@ -1904,7 +1904,7 @@ SOFTWARE.
                 
                     
 
-                    <link href="https://rcornes.github.io/LPD_SLP/customization/show/" rel="alternate" type="text/html"/>
+                    <link href="https://rcornes.github.io/LPD_SLP/docs/customization/show/" rel="alternate" type="text/html"/>
                 
             
 
