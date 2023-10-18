@@ -105,7 +105,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0"  xml:lang="en"  xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <atom:link href="docs/rss.xml" rel="self" type="application/rss+xml"/>
+        <atom:link href="https://rcornes.github.io/LPD_SLP/rss.xml" rel="self" type="application/rss+xml"/>
 
         
             <copyright>© Richard Cornes</copyright>
@@ -121,7 +121,7 @@
             <lastBuildDate>Sun, 24 Sep 2023 21:29:31 -0700</lastBuildDate>
         
 
-        <link>docs/</link>
+        <link>https://rcornes.github.io/LPD_SLP/</link>
 
         
             <managingEditor>will.faught@example.com (Will Faught)</managingEditor>
@@ -220,7 +220,7 @@ SOFTWARE.
 <h3 id="blockquote-with-attribution">Blockquote with attribution</h3>
 <blockquote>
 <p>Don&rsquo;t communicate by sharing memory, share memory by communicating.<br>
-— <cite>Rob Pike<sup id="fnref:1"><a href="docs/content/markdown-syntax/#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></cite></p>
+— <cite>Rob Pike<sup id="fnref:1"><a href="https://rcornes.github.io/LPD_SLP/content/markdown-syntax/#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></cite></p>
 </blockquote>
 <h2 id="tables">Tables</h2>
 <p>Tables aren&rsquo;t part of the core Markdown spec, but Hugo supports supports them out-of-the-box.</p>
@@ -333,16 +333,16 @@ SOFTWARE.
 <hr>
 <ol>
 <li id="fn:1">
-<p>The above quote is excerpted from Rob Pike&rsquo;s <a href="https://www.youtube.com/watch?v=PAAkCSZUG1c">talk</a> during Gopherfest, November 18, 2015.&#160;<a href="docs/content/markdown-syntax/#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>The above quote is excerpted from Rob Pike&rsquo;s <a href="https://www.youtube.com/watch?v=PAAkCSZUG1c">talk</a> during Gopherfest, November 18, 2015.&#160;<a href="https://rcornes.github.io/LPD_SLP/content/markdown-syntax/#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>]]></description>
                 
 
-                <guid  isPermaLink="false" >tag:,2023-09-18:2023-09-18T21:32:52-07:00</guid>
+                <guid  isPermaLink="false" >tag:rcornes.github.io,2023-09-18:2023-09-18T21:32:52-07:00</guid>
 
                 
-                    <link>docs/content/markdown-syntax/</link>
+                    <link>https://rcornes.github.io/LPD_SLP/content/markdown-syntax/</link>
                 
 
                 
@@ -440,10 +440,10 @@ SOFTWARE.
 </span></span></span></code></pre></div>]]></description>
                 
 
-                <guid  isPermaLink="false" >tag:,2023-01-01:2023-01-01T00:00:00-08:00</guid>
+                <guid  isPermaLink="false" >tag:rcornes.github.io,2023-01-01:2023-01-01T00:00:00-08:00</guid>
 
                 
-                    <link>docs/customization/style/</link>
+                    <link>https://rcornes.github.io/LPD_SLP/customization/style/</link>
                 
 
                 
@@ -542,10 +542,10 @@ $$
 $$</p>]]></description>
                 
 
-                <guid  isPermaLink="false" >tag:,2023-09-18:2023-09-18T21:33:03-07:00</guid>
+                <guid  isPermaLink="false" >tag:rcornes.github.io,2023-09-18:2023-09-18T21:33:03-07:00</guid>
 
                 
-                    <link>docs/content/math-typesetting/</link>
+                    <link>https://rcornes.github.io/LPD_SLP/content/math-typesetting/</link>
                 
 
                 
@@ -635,10 +635,10 @@ SOFTWARE.
 </span></span><span class="line"><span class="cl">}</span></span></code></pre></div>]]></description>
                 
 
-                <guid  isPermaLink="false" >tag:,2023-09-18:2023-09-18T21:32:40-07:00</guid>
+                <guid  isPermaLink="false" >tag:rcornes.github.io,2023-09-18:2023-09-18T21:32:40-07:00</guid>
 
                 
-                    <link>docs/content/emoji-support/</link>
+                    <link>https://rcornes.github.io/LPD_SLP/content/emoji-support/</link>
                 
 
                 
@@ -698,10 +698,10 @@ SOFTWARE.
 </span></span></span></code></pre></div>]]></description>
                 
 
-                <guid  isPermaLink="false" >tag:,2023-09-18:2023-09-18T21:33:35-07:00</guid>
+                <guid  isPermaLink="false" >tag:rcornes.github.io,2023-09-18:2023-09-18T21:33:35-07:00</guid>
 
                 
-                    <link>docs/content/simple-alert/</link>
+                    <link>https://rcornes.github.io/LPD_SLP/content/simple-alert/</link>
                 
 
                 
@@ -763,10 +763,10 @@ SOFTWARE.
 </span></span></span></code></pre></div>]]></description>
                 
 
-                <guid  isPermaLink="false" >tag:,2023-09-18:2023-09-18T21:21:05-07:00</guid>
+                <guid  isPermaLink="false" >tag:rcornes.github.io,2023-09-18:2023-09-18T21:21:05-07:00</guid>
 
                 
-                    <link>docs/content/complex-alert/</link>
+                    <link>https://rcornes.github.io/LPD_SLP/content/complex-alert/</link>
                 
 
                 
@@ -826,10 +826,10 @@ SOFTWARE.
 
                 
                     <description><![CDATA[<p>It takes you to the home page.</p>
-<p><a href="docs/content/link/" title="Link">⏎</a></p>]]></description>
+<p><a href="https://rcornes.github.io/LPD_SLP/content/link/" title="Link">⏎</a></p>]]></description>
                 
 
-                <guid  isPermaLink="false" >tag:,2023-09-24:2023-09-24T21:29:30-07:00</guid>
+                <guid  isPermaLink="false" >tag:rcornes.github.io,2023-09-24:2023-09-24T21:29:30-07:00</guid>
 
                 
                     <link>https://willfaught.com/paige</link>
@@ -978,10 +978,10 @@ SOFTWARE.
 ]]></description>
                 
 
-                <guid  isPermaLink="false" >tag:,2023-09-24:2023-09-24T21:29:31-07:00</guid>
+                <guid  isPermaLink="false" >tag:rcornes.github.io,2023-09-24:2023-09-24T21:29:31-07:00</guid>
 
                 
-                    <link>docs/content/video/</link>
+                    <link>https://rcornes.github.io/LPD_SLP/content/video/</link>
                 
 
                 
@@ -1127,10 +1127,10 @@ SOFTWARE.
 </div>]]></description>
                 
 
-                <guid  isPermaLink="false" >tag:,2023-09-18:2023-09-18T21:35:28-07:00</guid>
+                <guid  isPermaLink="false" >tag:rcornes.github.io,2023-09-18:2023-09-18T21:35:28-07:00</guid>
 
                 
-                    <link>docs/shortcodes/quote/</link>
+                    <link>https://rcornes.github.io/LPD_SLP/shortcodes/quote/</link>
                 
 
                 
@@ -1251,10 +1251,10 @@ SOFTWARE.
 </p>]]></description>
                 
 
-                <guid  isPermaLink="false" >tag:,2023-09-18:2023-09-18T21:35:15-07:00</guid>
+                <guid  isPermaLink="false" >tag:rcornes.github.io,2023-09-18:2023-09-18T21:35:15-07:00</guid>
 
                 
-                    <link>docs/shortcodes/icon/</link>
+                    <link>https://rcornes.github.io/LPD_SLP/shortcodes/icon/</link>
                 
 
                 
@@ -1536,10 +1536,10 @@ SOFTWARE.
 </div>]]></description>
                 
 
-                <guid  isPermaLink="false" >tag:,2023-09-18:2023-09-18T21:34:51-07:00</guid>
+                <guid  isPermaLink="false" >tag:rcornes.github.io,2023-09-18:2023-09-18T21:34:51-07:00</guid>
 
                 
-                    <link>docs/shortcodes/code/</link>
+                    <link>https://rcornes.github.io/LPD_SLP/shortcodes/code/</link>
                 
 
                 
@@ -1619,10 +1619,10 @@ SOFTWARE.
 </span></span></span></code></pre></div>]]></description>
                 
 
-                <guid  isPermaLink="false" >tag:,2023-02-01:2023-02-01T00:00:00-08:00</guid>
+                <guid  isPermaLink="false" >tag:rcornes.github.io,2023-02-01:2023-02-01T00:00:00-08:00</guid>
 
                 
-                    <link>docs/customization/show/</link>
+                    <link>https://rcornes.github.io/LPD_SLP/customization/show/</link>
                 
 
                 
