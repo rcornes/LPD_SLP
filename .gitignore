@@ -1,4 +1,6 @@
+site/
 data/bin
+.DS_store
 *~
 .Rhistory
 *.R
