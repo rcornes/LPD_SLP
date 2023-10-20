@@ -1,0 +1,282 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+    
+        
+    
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<feed  xml:lang="en"  xmlns="http://www.w3.org/2005/Atom">
+    
+        <author>
+            
+                <email>will.faught@example.com</email>
+            
+
+            
+                <name>Will Faught</name>
+            
+
+            
+                <uri>https://willfaught.com/paige</uri>
+            
+        </author>
+    
+
+    
+
+    <id>tag:rcornes.github.io,2023-09-18:2023-09-18T21:35:28-07:00</id>
+
+    
+        
+
+        
+            
+        
+
+        
+            <link href="https://rcornes.github.io/LPD_SLP/tags/quotations/atom.xml" rel="self" type="application/atom+xml"/>
+        
+    
+        
+
+        
+            
+        
+
+        
+            <link href="https://rcornes.github.io/LPD_SLP/tags/quotations/" rel="alternate" type="text/html"/>
+        
+    
+        
+
+        
+
+        
+            <link href="https://rcornes.github.io/LPD_SLP/tags/quotations/rss.xml" rel="alternate" type="application/rss+xml"/>
+        
+    
+
+    
+
+    
+
+    
+        <rights type="html"><![CDATA[© Richard Cornes]]></rights>
+    
+
+    
+
+    <title type="html"><![CDATA[quotations · Tags · English Channel Storms]]></title>
+    <updated>2023-09-24T21:29:31-07:00</updated>
+
+    
+        <entry>
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+
+            
+
+            
+
+            
+                
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+                
+                    <author>
+                        
+                            <email>will.faught@example.com</email>
+                        
+
+                        
+                            <name>Will Faught</name>
+                        
+
+                        
+                            <uri>https://willfaught.com/paige</uri>
+                        
+                    </author>
+                
+            
+
+            
+                <content type="html"><![CDATA[<p>Paige provides a <code>paige/quote</code> shortcode for displaying a quotation.</p>
+<h2 id="basic">Basic</h2>
+<p>Code:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go-html-template" data-lang="go-html-template"><span class="line"><span class="cl"><span class="cp">{{</span><span class="err">&lt;</span><span class="w"> </span><span class="nx">paige</span><span class="err">/</span><span class="nx">quote</span><span class="w"> </span><span class="err">&gt;</span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl">Hickory dickory dock.<span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span>The mouse ran up the clock.<span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span>The clock struck one,<span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span>The mouse ran down,<span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span>Hickory dickory dock.
+</span></span><span class="line"><span class="cl"><span class="cp">{{</span><span class="err">&lt;</span><span class="w"> </span><span class="err">/</span><span class="nx">paige</span><span class="err">/</span><span class="nx">quote</span><span class="w"> </span><span class="err">&gt;</span><span class="cp">}}</span>
+</span></span></code></pre></div><p>Result:</p>
+
+
+
+
+
+<div class="paige-quote">
+    <blockquote class="blockquote">Hickory dickory dock.<br>The mouse ran up the clock.<br>The clock struck one,<br>The mouse ran down,<br>Hickory dickory dock.</blockquote>
+
+    
+</div>
+
+<h2 id="cite">Cite</h2>
+<p>Code:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go-html-template" data-lang="go-html-template"><span class="line"><span class="cl"><span class="cp">{{</span><span class="err">&lt;</span><span class="w"> </span><span class="nx">paige</span><span class="err">/</span><span class="nx">quote</span><span class="w"> </span><span class="nx">cite</span><span class="o">=</span><span class="s">&#34;Hickory Dickory Dock&#34;</span><span class="w"> </span><span class="err">&gt;</span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl">Hickory dickory dock.<span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span>The mouse ran up the clock.<span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span>The clock struck one,<span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span>The mouse ran down,<span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span>Hickory dickory dock.
+</span></span><span class="line"><span class="cl"><span class="cp">{{</span><span class="err">&lt;</span><span class="w"> </span><span class="err">/</span><span class="nx">paige</span><span class="err">/</span><span class="nx">quote</span><span class="w"> </span><span class="err">&gt;</span><span class="cp">}}</span>
+</span></span></code></pre></div><p>Result:</p>
+
+
+
+
+
+<div class="paige-quote">
+    <blockquote class="blockquote">Hickory dickory dock.<br>The mouse ran up the clock.<br>The clock struck one,<br>The mouse ran down,<br>Hickory dickory dock.</blockquote>
+
+    
+        <div class="blockquote-footer">Hickory Dickory Dock</div>
+    
+</div>
+
+<h2 id="figure">Figure</h2>
+<p>Code:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go-html-template" data-lang="go-html-template"><span class="line"><span class="cl"><span class="cp">{{</span><span class="err">&lt;</span><span class="w"> </span><span class="nx">paige</span><span class="err">/</span><span class="nx">figure</span><span class="w"> </span><span class="nx">caption</span><span class="o">=</span><span class="s">&#34;Hickory Dickory Dock&#34;</span><span class="w"> </span><span class="err">&gt;</span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl"><span class="cp">{{</span><span class="err">&lt;</span><span class="w"> </span><span class="nx">paige</span><span class="err">/</span><span class="nx">quote</span><span class="w"> </span><span class="err">&gt;</span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl">Hickory dickory dock.<span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span>The mouse ran up the clock.<span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span>The clock struck one,<span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span>The mouse ran down,<span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span>Hickory dickory dock.
+</span></span><span class="line"><span class="cl"><span class="cp">{{</span><span class="err">&lt;</span><span class="w"> </span><span class="err">/</span><span class="nx">paige</span><span class="err">/</span><span class="nx">quote</span><span class="w"> </span><span class="err">&gt;</span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl"><span class="cp">{{</span><span class="err">&lt;</span><span class="w"> </span><span class="err">/</span><span class="nx">paige</span><span class="err">/</span><span class="nx">figure</span><span class="w"> </span><span class="err">&gt;</span><span class="cp">}}</span>
+</span></span></code></pre></div><p>Result:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+<div class="align-items-center d-flex  h-100 justify-content-center  paige-figure ">
+<figure class=" mb-0" >
+<div class="d-flex justify-content-center text-center"><div class="paige-quote">
+    <blockquote class="blockquote">Hickory dickory dock.<br>The mouse ran up the clock.<br>The clock struck one,<br>The mouse ran down,<br>Hickory dickory dock.</blockquote>
+</div>
+</div>
+
+
+<figcaption class="figure-caption mt-2 text-center" >Hickory Dickory Dock</figcaption>
+
+</figure>
+</div>]]></content>
+            
+
+            <id>tag:rcornes.github.io,2023-09-18:2023-09-18T21:35:28-07:00</id>
+
+            
+                
+
+                
+                    
+
+                    <link href="https://rcornes.github.io/LPD_SLP/shortcodes/quote/" rel="alternate" type="text/html"/>
+                
+            
+
+            
+
+            
+                <published>2023-09-18T21:35:28-07:00</published>
+            
+
+            
+                <rights type="html"><![CDATA[© Richard Cornes]]></rights>
+            
+
+            
+                <summary type="html"><![CDATA[Demonstration of the Paige quote shortcode.]]></summary>
+            
+
+            <title type="html"><![CDATA[Quote Shortcode]]></title>
+            <updated>2023-09-18T21:35:28-07:00</updated>
+        </entry>
+    
+</feed>
