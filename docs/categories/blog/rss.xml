@@ -1,0 +1,211 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"  xml:lang="en"  xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <atom:link href="https://rcornes.github.io/LPD_SLP/categories/blog/rss.xml" rel="self" type="application/rss+xml"/>
+
+        
+            <copyright>© Richard Cornes</copyright>
+        
+
+        <description>Recent content</description>
+
+        
+            <language>en</language>
+        
+
+        
+            <lastBuildDate>Wed, 01 Nov 2023 00:00:00 PDT</lastBuildDate>
+        
+
+        <link>https://rcornes.github.io/LPD_SLP/categories/blog/</link>
+
+        
+            <managingEditor>will.faught@example.com (Will Faught)</managingEditor>
+        
+
+        <title>blog · Categories · English Channel Storms</title>
+
+        
+            <webMaster>will.faught@example.com (Will Faught)</webMaster>
+        
+
+        
+            <item>
+                
+                
+                
+                
+                
+                
+                
+                
+
+                
+
+                
+                    
+
+                    
+                
+
+                
+
+                
+
+                
+                
+
+                
+
+                
+                    
+                
+
+                
+
+                
+
+                
+
+                
+                    <description><![CDATA[
+
+
+<p>On the 2nd November 2023, as storm Ciarán passed over southern England
+the barometric pressure recorded at Heathrow airport in London sank to
+953hPa.</p>
+<p>Such events are extremely rare and given the length of the London
+pressure, we are able to put that value in the context of the last
+250+ years.</p>
+<p>The table below shows the dates of all sea-level pressures in the
+series below 960hPa. These values represent the lowest values on a
+given day, as given the hourly sampling frequency for the 1989 event
+there pressure was below 960hPa for most of the day.</p>
+<p>As can see from this table the pressure on 2nd November 2023 was the
+second lowest pressure in the series.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="right">Time</th>
+<th align="left">MSLP</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="right">1989-02-25 18:00:00</td>
+<td align="left">952.3</td>
+</tr>
+<tr class="even">
+<td align="right">1724-12-19 09:00:00</td>
+<td align="left">955.0</td>
+</tr>
+<tr class="odd">
+<td align="right">1724-01-30 09:00:00</td>
+<td align="left">955.5</td>
+</tr>
+<tr class="even">
+<td align="right">1989-02-26 00:00:00</td>
+<td align="left">956.3</td>
+</tr>
+<tr class="odd">
+<td align="right">1922-03-08 10:00:00</td>
+<td align="left">956.7</td>
+</tr>
+<tr class="even">
+<td align="right">1705-12-30 12:00:00</td>
+<td align="left">956.8</td>
+</tr>
+<tr class="odd">
+<td align="right">1715-10-20 18:00:00</td>
+<td align="left">956.8</td>
+</tr>
+<tr class="even">
+<td align="right">1791-01-20 08:00:00</td>
+<td align="left">957.2</td>
+</tr>
+<tr class="odd">
+<td align="right">1706-11-05 21:00:00</td>
+<td align="left">958.2</td>
+</tr>
+<tr class="even">
+<td align="right">1708-01-21 12:00:00</td>
+<td align="left">958.3</td>
+</tr>
+<tr class="odd">
+<td align="right">1821-12-25 08:00:00</td>
+<td align="left">958.4</td>
+</tr>
+<tr class="even">
+<td align="right">1926-11-20 15:00:00</td>
+<td align="left">958.9</td>
+</tr>
+<tr class="odd">
+<td align="right">1702-02-15 12:00:00</td>
+<td align="left">959.8</td>
+</tr>
+</tbody>
+</table>
+<p>In Cornes (2014) I discussed the most significant storms to have occurred across the British Isles since 1700. The 1724 event was noted at the time both by observers in London and by the French astromomer Maraldi, who was recording meteorological measurements at the Paris Observatory.</p>
+<p>On the afternoon of 4th November the pressure is again forecast to drop below 960hPa in London, in certain weather forecast models/ensemble members. This table will therefore likely need updating again.</p>
+<div id="references" class="section level3">
+<h3>References</h3>
+<p>Cornes, R.C. (2014), Historic storms of the northeast Atlantic since circa 1700: a brief review of recent research. Weather, 69: 121-125. <a href="https://doi.org/10.1002/wea.2289" class="uri">https://doi.org/10.1002/wea.2289</a></p>
+</div>
+]]></description>
+                
+
+                <guid  isPermaLink="false" >tag:rcornes.github.io,2023-11-01:2023-11-01T00:00:00-07:00</guid>
+
+                
+                    <link>https://rcornes.github.io/LPD_SLP/2023/11/01/storm-ciar%C3%A1n/</link>
+                
+
+                
+                    <pubDate>Wed, 01 Nov 2023 00:00:00 PDT</pubDate>
+                
+
+                
+                    <title>Storm Ciarán</title>
+                
+            </item>
+        
+    </channel>
+</rss>
