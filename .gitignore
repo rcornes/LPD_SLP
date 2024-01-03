@@ -1,5 +1,6 @@
 site/
 data/bin
+data/paper_data
 .DS_store
 *~
 .Rhistory
