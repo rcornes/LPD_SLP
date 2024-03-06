@@ -4,7 +4,5 @@ data/paper_data
 .DS_store
 *~
 .Rhistory
-*.R
-*.RDS
-*.sh
 *.log
+*.RDS
