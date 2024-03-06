@@ -232,38 +232,39 @@ cols <- c("#0080ff","#ff00ff","darkgreen","#ff0000")
 
 plot.df.lat <- filter(plot.df,series=="Jet Latitude")
 ts.plot.lat <- xyplot(Q~year|series,data=plot.df.lat,
-                       group=series,type="l",
-                       scales=list(tck=c(1,0,1,1),y=list(relation="free",cex=0.5),
-                                   x=list(cex=0.5)),par.strip.text=list(cex=0.5),
-                       xlab=NULL,ylab=list(label=substitute(paste("Latitude (",degree,"N)")),
-                                           cex=0.5), lwd=0.75,
-                       par.settings=list(layout.heights=list(main.key.padding=0,
-                                                             key.axis.padding=0,
-                                                             bottom.padding=-1.25,
-                                                             top.padding=1),
-                                         par.main.text = list(cex=0.75,font = 0.5,
-                                                              just = "left",
-                                                              x = grid::unit(5, "mm"))),
-                       xscale.components = xscale.components.subticks,
+                      group=series,type="l",
+                      scales=list(tck=c(1,0,1,1),y=list(relation="free",cex=0.5),
+                                  x=list(cex=0.5)),par.strip.text=list(cex=0.5),
+                      xlab=NULL,ylab=list(label=substitute(paste("Latitude (",degree,"N)")),cex=0.5),
+                      lwd=0.75,
+                      par.settings=list(layout.heights=list(main.key.padding=0,
+                                                            key.axis.padding=0,
+                                                            bottom.padding=-1.25,
+                                                            top.padding=1),
+                                        par.main.text = list(cex=0.75,font = 0.5,
+                                                             just = "left",
+                                                             x = grid::unit(5, "mm"))),
+                      xscale.components = xscale.components.subticks,
                       yscale.components = yscale.components.subticks,
                       lower=plot.df.lat$lo,upper=plot.df.lat$hi,
-                       panel=function(x, y,...){
-                           col=cols[4]
-                           M <- zyp.zhang(y,x)
-                           trend <- sprintf("%3.2f",round(M[["trend"]] * 100,2))
-                           ## lo.trend <- sprintf("%3.2f",round(M[["lbound"]]*10,2))
-                           ## hi.trend <- sprintf("%3.2f",round(M[["ubound"]]*10,2))
-                           star <- if(M[["sig"]]<0.05) "**" else if(M[["sig"]]<0.1) "*" else ""
-                           if(panel.number()==4) {
-                               label <- substitute(paste("Trend = ",trend,star,
-                                                         degree,"lat ", century^-1))
-                      } else {
-                          label <- substitute(paste("Trend = ",trend,star,degree," ", century^-1))
-                      }
-                           panel.ci(x,y,alpha=0.4,...)
-                      panel.xyplot(x,y,col=col,...)
-                      panel.abline(b=M[["trend"]],a=M[["intercept"]],col=col)
-                      panel.text(1865,max(y)-max(y)*0.01,col=col,labels=label,pos=4,cex=0.5) })
+                      ylim=c(40,57),
+                      panel=function(x, y,...){
+                          col=cols[4]
+                          M <- zyp.zhang(y,x)
+                          trend <- sprintf("%3.2f",round(M[["trend"]] * 100,2))
+                          lo.trend <- sprintf("%3.2f",round(M[["lbound"]]*10,2))
+                          hi.trend <- sprintf("%3.2f",round(M[["ubound"]]*10,2))
+                          star <- if(M[["sig"]]<0.05) "**" else if(M[["sig"]]<0.1) "*" else ""
+                          ## if(panel.number()==4) {
+                          ##     label <- substitute(paste("Trend = ",trend," (",lo.trend," - ",hi.trend, ") ",
+                          ##                               degree, century^-1))
+                          ## } else {
+                          label <- substitute(paste("Trend = ",trend," (",lo.trend," - ",hi.trend, ") ",degree, " ", century^-1))
+                          #}
+                          panel.ci(x,y,alpha=0.4,...)
+                          panel.xyplot(x,y,col=col,...)
+                          panel.abline(b=M[["trend"]],a=M[["intercept"]],col=col)
+                          panel.text(1865,57-57*0.01,col=col,labels=label,pos=4,cex=0.5) })
 
 plot.df.speed <- filter(plot.df,!series=="Jet Latitude")
 
@@ -285,16 +286,15 @@ ts.plot.speed <- xyplot(Q~year|series,data=plot.df.speed,
                              col=cols[panel.number()]
                              M <- zyp.zhang(y,x)
                              trend <- sprintf("%3.2f",round(M[["trend"]] * 100,2))
-                             #lo.trend <- sprintf("%3.2f",round(M[["lbound"]]*10,2))
-                                        #hi.trend <- sprintf("%3.2f",round(M[["ubound"]]*10,2))
+                             lo.trend <- sprintf("%3.2f",round(M[["lbound"]]*10,2))
+                             hi.trend <- sprintf("%3.2f",round(M[["ubound"]]*10,2))
                              star <- if(M[["sig"]]<0.05) "**" else if(M[["sig"]]<0.1) "*" else ""
-                             if(panel.number()==4) {
-                                 label <- substitute(paste("Trend = ",trend,star,
-                                                           degree,"lat ", century^-1))
-                             } else {
-                                 label <- substitute(paste("Trend = ",trend,star," m ",s^-1," ",
-                                                           century^-1))
-                             }
+                             ## if(panel.number()==4) {
+                             ##     label <- substitute(paste("Trend = ",trend,"(",lo.trend,"-",hi.trend,")",
+                             ##                               degree,"lat ", century^-1))
+                             ## } else {
+                             label <- substitute(paste("Trend = ",trend," (",lo.trend," - ",hi.trend,") m ",s^-1, " ",century^-1))
+                             #}
                              panel.ci(x,y,alpha=0.4,...)
                              panel.xyplot(x,y,col=col,...)
                              panel.abline(b=M[["trend"]],a=M[["intercept"]],col=col)
