@@ -22,7 +22,7 @@ DF <- read.csv(pc_file) %>%
     na.omit()
 
 
-idates <- list(c(1871,2022),c(1748,2022),c(1950,2022))
+idates <- list(c(1871,2023),c(1748,2023),c(1950,2023))
 cnt <- 1
 
 for (rng in idates){
@@ -41,10 +41,10 @@ for (rng in idates){
         mutate_at(.vars=vars(lbound,trend,ubound),.funs=funs(.*100)) %>%
         mutate_at(.vars=vars(lbound,trend,ubound),.funs=funs(round(.,2))) %>%
         mutate(sig=round(sig,4)) %>%
-        select(season,quantile,trend,sig)
+        select(season,quantile,trend,lbound,ubound)
 
     if(cnt==1){
-        caption <- sprintf("Trends (per century) and significance levels in seasonal geostrophic wind percentiles over the period %s--%s. ",rng[1],rng[2])
+        caption <- sprintf("Trends (per century) and 95 percent confidence level (indicated by the lbound and ubound values) in seasonal geostrophic wind percentiles over the period %s--%s. ",rng[1],rng[2])
         label <- "tab:trend1"
     } else {
         caption <- sprintf("As Table \\ref{tab:trend1} except for the period %s-%s.",rng[1],rng[2])
