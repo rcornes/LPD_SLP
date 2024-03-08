@@ -255,12 +255,7 @@ ts.plot.lat <- xyplot(Q~year|series,data=plot.df.lat,
                           lo.trend <- sprintf("%3.2f",round(M[["lbound"]]*10,2))
                           hi.trend <- sprintf("%3.2f",round(M[["ubound"]]*10,2))
                           star <- if(M[["sig"]]<0.05) "**" else if(M[["sig"]]<0.1) "*" else ""
-                          ## if(panel.number()==4) {
-                          ##     label <- substitute(paste("Trend = ",trend," (",lo.trend," - ",hi.trend, ") ",
-                          ##                               degree, century^-1))
-                          ## } else {
                           label <- substitute(paste("Trend = ",trend," (",lo.trend," - ",hi.trend, ") ",degree, " ", century^-1))
-                          #}
                           panel.ci(x,y,alpha=0.4,...)
                           panel.xyplot(x,y,col=col,...)
                           panel.abline(b=M[["trend"]],a=M[["intercept"]],col=col)
@@ -289,12 +284,7 @@ ts.plot.speed <- xyplot(Q~year|series,data=plot.df.speed,
                              lo.trend <- sprintf("%3.2f",round(M[["lbound"]]*10,2))
                              hi.trend <- sprintf("%3.2f",round(M[["ubound"]]*10,2))
                              star <- if(M[["sig"]]<0.05) "**" else if(M[["sig"]]<0.1) "*" else ""
-                             ## if(panel.number()==4) {
-                             ##     label <- substitute(paste("Trend = ",trend,"(",lo.trend,"-",hi.trend,")",
-                             ##                               degree,"lat ", century^-1))
-                             ## } else {
                              label <- substitute(paste("Trend = ",trend," (",lo.trend," - ",hi.trend,") m ",s^-1, " ",century^-1))
-                             #}
                              panel.ci(x,y,alpha=0.4,...)
                              panel.xyplot(x,y,col=col,...)
                              panel.abline(b=M[["trend"]],a=M[["intercept"]],col=col)
