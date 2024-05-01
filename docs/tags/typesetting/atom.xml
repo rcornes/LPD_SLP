@@ -1,0 +1,235 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+    
+        
+    
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<feed  xml:lang="en"  xmlns="http://www.w3.org/2005/Atom">
+    
+        <author>
+            
+                <email>will.faught@example.com</email>
+            
+
+            
+                <name>Will Faught</name>
+            
+
+            
+                <uri>https://willfaught.com/paige</uri>
+            
+        </author>
+    
+
+    
+
+    <id>tag:rcornes.github.io,2023-09-18:2023-09-18T21:33:03-07:00</id>
+
+    
+        
+
+        
+            
+        
+
+        
+            <link href="https://rcornes.github.io/LPD_SLP/tags/typesetting/atom.xml" rel="self" type="application/atom+xml"/>
+        
+    
+        
+
+        
+            
+        
+
+        
+            <link href="https://rcornes.github.io/LPD_SLP/tags/typesetting/" rel="alternate" type="text/html"/>
+        
+    
+        
+
+        
+
+        
+            <link href="https://rcornes.github.io/LPD_SLP/tags/typesetting/rss.xml" rel="alternate" type="application/rss+xml"/>
+        
+    
+
+    
+
+    
+
+    
+        <rights type="html"><![CDATA[© Richard Cornes]]></rights>
+    
+
+    
+
+    <title type="html"><![CDATA[typesetting · Tags · English Channel Storms]]></title>
+    <updated>2023-11-03T00:00:00-07:00</updated>
+
+    
+        <entry>
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+
+            
+
+            
+
+            
+                
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+                
+                    <author>
+                        
+                            <email>will.faught@example.com</email>
+                        
+
+                        
+                            <name>Will Faught</name>
+                        
+
+                        
+                            <uri>https://willfaught.com/paige</uri>
+                        
+                    </author>
+                
+            
+
+            
+                <content type="html"><![CDATA[<!--
+The MIT License (MIT)
+
+Copyright (c) 2014 Steve Francia
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+-->
+<p>Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.</p>
+<p>In this example we will be using <a href="https://katex.org/">KaTeX</a></p>
+<ul>
+<li>Create a partial under <code>/layouts/partials/math.html</code></li>
+<li>Within this partial reference the <a href="https://katex.org/docs/autorender.html">Auto-render Extension</a> or host these scripts locally.</li>
+<li>Include the partial in your templates like so:</li>
+</ul>
+<pre tabindex="0"><code>{{ if .Params.paige.math }}
+{{ partial &#34;math.html&#34; . }}
+{{ end }}
+</code></pre><p>To enable KaTex on a per page basis include the parameter <code>paige.math: true</code> in content files</p>
+<p><strong>Note:</strong> Use the online reference of <a href="https://katex.org/docs/supported.html">Supported TeX Functions</a></p>
+<h2 id="examples">Examples</h2>
+<p>
+Inline math: \(\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…\)
+</p>
+<p>Block math:
+$$
+\varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
+$$</p>]]></content>
+            
+
+            <id>tag:rcornes.github.io,2023-09-18:2023-09-18T21:33:03-07:00</id>
+
+            
+                
+
+                
+                    
+
+                    <link href="https://rcornes.github.io/LPD_SLP/content/math-typesetting/" rel="alternate" type="text/html"/>
+                
+            
+
+            
+
+            
+                <published>2023-09-18T21:33:03-07:00</published>
+            
+
+            
+                <rights type="html"><![CDATA[© Richard Cornes]]></rights>
+            
+
+            
+                <summary type="html"><![CDATA[A brief guide to setup KaTeX.]]></summary>
+            
+
+            <title type="html"><![CDATA[Math Typesetting]]></title>
+            <updated>2023-09-18T21:33:03-07:00</updated>
+        </entry>
+    
+</feed>

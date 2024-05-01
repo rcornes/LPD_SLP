@@ -1,0 +1,54 @@
+---
+title: "English Channel Geostrophic Wind Metrics"
+---
+
+The following plots show the sea-level pressure recorded in London,
+Paris and De Bilt over the last year and the geostrophic wind that has
+been derived from these three sites.
+
+The plots are initially zoomed into the last 31 days but using the
+slider below the plots the timespan can be expanded up to the a year.
+
+These values are calculated from the SLP readings taken at 1200 UTC.
+
+These values are updated on a daily basis using values distributed via
+the Global Telecommunications System (GTS).
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse=TRUE)
+```
+
+
+```{r, echo=FALSE, fig.show="hold", out.width="100%",warning=FALSE,message=FALSE}
+library(dygraphs)
+library(xts)
+library(data.table)
+library(lubridate)
+library(knitr)
+library(dplyr)
+library(tidyr)
+
+geowind_clim <- readRDS("/Users/ricorne/projects/geowindWEB/data/geowind_climatology.RDS") %>%
+    rename(clim=val) %>%
+    spread(quant,clim) %>%
+    setnames(c("month","day",paste0("Q",c(0.05,0.25,0.5,0.75,0.95))))
+
+geowind <- readRDS("/Users/ricorne/projects/geowindWEB/data/geowind_current.RDS") %>%
+    filter(hour(time)==12,time>=now("UTC")-days(365)) %>%
+    mutate(year=year(time),month=month(time),day=day(time))
+
+geowind <- left_join(geowind,geowind_clim)
+
+slp.xts <- xts(x=geowind[,c("debilt","london","paris")], order.by=geowind$time,tzone="UTC")
+wind.xts <- xts(x=geowind[,c("geowind","Q0.5","Q0.05","Q0.95")], order.by=geowind$time,tzone="UTC")
+
+
+date_range <- c(now("UTC")-months(3),now("UTC"))
+dygraph(slp.xts, main = "MSLP",xlab="Date",ylab="MSLP (hPa)",group="geowind") %>%
+dyRangeSelector(date_range)
+
+dygraph(wind.xts, main = "Geostrophic Wind",xlab="Date",ylab="M/s") %>%
+    dySeries(c("Q0.05","Q0.5","Q0.95"),"Median") %>%
+    dyRangeSelector(date_range)
+```
+ 
