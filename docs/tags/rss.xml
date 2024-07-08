@@ -1,0 +1,66 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"  xml:lang="en"  xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <atom:link href="https://rcornes.github.io/LPD_SLP/tags/rss.xml" rel="self" type="application/rss+xml"/>
+
+        
+            <copyright>© Richard Cornes</copyright>
+        
+
+        <description>Browse by tag.</description>
+
+        
+            <language>en</language>
+        
+
+        
+            <lastBuildDate>Fri, 03 Nov 2023 00:00:00 PDT</lastBuildDate>
+        
+
+        <link>https://rcornes.github.io/LPD_SLP/tags/</link>
+
+        
+            <managingEditor>will.faught@example.com (Will Faught)</managingEditor>
+        
+
+        <title>Tags · English Channel Storms</title>
+
+        
+            <webMaster>will.faught@example.com (Will Faught)</webMaster>
+        
+
+        
+    </channel>
+</rss>

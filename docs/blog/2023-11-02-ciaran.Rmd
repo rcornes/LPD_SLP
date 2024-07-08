@@ -1,0 +1,91 @@
+---
+authors: ["richard-cornes"]
+categories: ["blog", "storms"]
+date: '2023-11-03'
+description: "The lowest barometric pressure in London since 1989"
+tags: ["storms"]
+title: "Storm Ciarán"
+weight: 30
+---
+
+At 0800UTC on the 2nd November 2023, as storm Ciarán passed over
+southern England, the barometric pressure recorded at Heathrow airport
+in London sank to 955.7hPa.
+
+Such low baraometric pressures are extremely rare and given the length
+of the London pressure series, we are able to put that value in the context
+of the last 300+ years.
+
+The table below shows the dates of all sea-level pressures in the
+series below 960hPa. These values represent the lowest values on a
+given day, in order to give an indication of the low pressure values
+associated with disrete storm events. This is not entirely reliable,
+however, as can be seen in the double entry for the 1989 storm.
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse=TRUE)
+```
+
+
+```{r, echo=FALSE, fig.show="hold", out.width="100%",warning=FALSE,message=FALSE}
+library(dplyr)
+library(dataresqc)
+library(lubridate)
+
+## Read the data
+data_dir <- "~/projects/geowindWEB/data/SEF"
+
+ifiles <- list.files(data_dir,"London*",full=TRUE)
+
+london <- lapply(ifiles,read_sef) %>%
+    bind_rows()
+
+london %>%
+    filter(Value<960) %>%
+    mutate(date=make_datetime(Year,Month,Day,Hour,Minute),
+           date2=make_date(Year,Month,Day)) %>%
+    group_by(date2) %>%
+    arrange(Value) %>%
+    slice(1) %>%
+    ungroup() %>%
+    select(date,Value) %>%
+    arrange(Value) %>%
+    as.data.frame() %>%
+    knitr::kable(col.names=c("Time","Sea-level Pressure (hPa)"),align="rr") %>%
+    kableExtra::kable_styling(full_width = FALSE)
+```
+
+As can see from this table the pressure on 2nd November 2023 was the
+fourth lowest in the series, behind the 1989 and 1724 readings.
+However, given the uncertainty with the 1724 measurements it likely to
+be at least comparable to the pressure recorded at that time.
+
+In Cornes (2014) I discussed the most significant storms to have
+occurred across the British Isles since 1700. The low-pressure events
+in 1724 were noted at the time both by observers in London and by the
+French astromomer Giovanni Domenico Maraldi, who was recording
+meteorological observations at the Paris Observatory. An observer
+writing for the *British Journal* noted:
+
+> *On Tuesday morning last [19 December 1724 NS] the quicksilver was
+lower in all the barometers here than had ever been observed by our
+most ancient Vertuosi[sic], even almost five tenths lower than in the
+great November storm in 1703; and yet during the whole time of its
+sinking, which was from Monday afternoon, between three or four of the
+clock, to six the next morning, (in which space it fell an inch and
+five tenths) we had no wind so considerable, as to do any remarkable
+damage. Its greatest violence was from six to seven of the clock on
+Monday night, when there fell a great quantity of rain, and the wind
+(as far as I could perceive) was south east.*
+
+As with Storm Ciarán, the strongest winds were not felt in southern
+England but were experienced farther south. However, little is known
+about that event and further research is needed.
+
+Stephen Burt (University of Reading) has provided further details
+about the low pressures recorded across Southern England on 2nd
+November in this document:
+https://www.reading.ac.uk/news/2023/Expert-Comment/Stephen-Burt-on-Storm-Ciaran
+
+### References
+Cornes, R.C. (2014), Historic storms of the northeast Atlantic since circa 1700: a brief review of recent research. Weather, 69: 121-125. https://doi.org/10.1002/wea.2289
