@@ -1,0 +1,285 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+    
+        
+    
+
+    
+        
+    
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<feed  xml:lang="en"  xmlns="http://www.w3.org/2005/Atom">
+    
+        <author>
+            
+                <email>will.faught@example.com</email>
+            
+
+            
+                <name>Will Faught</name>
+            
+
+            
+                <uri>https://willfaught.com/paige</uri>
+            
+        </author>
+    
+
+    
+
+    <id>tag:rcornes.github.io,2023-09-18:2023-09-18T21:33:35-07:00</id>
+
+    
+        
+
+        
+            
+        
+
+        
+            <link href="https://rcornes.github.io/LPD_SLP/tags/alerts/atom.xml" rel="self" type="application/atom+xml"/>
+        
+    
+        
+
+        
+            
+        
+
+        
+            <link href="https://rcornes.github.io/LPD_SLP/tags/alerts/" rel="alternate" type="text/html"/>
+        
+    
+        
+
+        
+
+        
+            <link href="https://rcornes.github.io/LPD_SLP/tags/alerts/rss.xml" rel="alternate" type="application/rss+xml"/>
+        
+    
+
+    
+
+    
+
+    
+        <rights type="html"><![CDATA[© Richard Cornes]]></rights>
+    
+
+    
+
+    <title type="html"><![CDATA[alerts · Tags · English Channel Storms]]></title>
+    <updated>2023-11-03T00:00:00-07:00</updated>
+
+    
+        <entry>
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+
+            
+
+            
+
+            
+                
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+                
+                    <author>
+                        
+                            <email>will.faught@example.com</email>
+                        
+
+                        
+                            <name>Will Faught</name>
+                        
+
+                        
+                            <uri>https://willfaught.com/paige</uri>
+                        
+                    </author>
+                
+            
+
+            
+                <content type="html"><![CDATA[<p>This page has the following parameters:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">paige</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">alert</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;Get more information &lt;a href=\&#34;#\&#34; class=\&#34;alert-link\&#34;&gt;here&lt;/a&gt;.&#34;</span><span class="w">
+</span></span></span></code></pre></div>]]></content>
+            
+
+            <id>tag:rcornes.github.io,2023-09-18:2023-09-18T21:33:35-07:00</id>
+
+            
+                
+
+                
+                    
+
+                    <link href="https://rcornes.github.io/LPD_SLP/content/simple-alert/" rel="alternate" type="text/html"/>
+                
+            
+
+            
+
+            
+                <published>2023-09-18T21:33:35-07:00</published>
+            
+
+            
+                <rights type="html"><![CDATA[© Richard Cornes]]></rights>
+            
+
+            
+                <summary type="html"><![CDATA[A simple alert.]]></summary>
+            
+
+            <title type="html"><![CDATA[Simple Alert]]></title>
+            <updated>2023-09-18T21:33:35-07:00</updated>
+        </entry>
+    
+        <entry>
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+
+            
+
+            
+
+            
+                
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+                
+                    <author>
+                        
+                            <email>will.faught@example.com</email>
+                        
+
+                        
+                            <name>Will Faught</name>
+                        
+
+                        
+                            <uri>https://willfaught.com/paige</uri>
+                        
+                    </author>
+                
+            
+
+            
+                <content type="html"><![CDATA[<p>This page has the following parameters:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">paige</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">alert</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">message</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;Get more information &lt;a href=\&#34;#\&#34; class=\&#34;alert-link\&#34;&gt;here&lt;/a&gt;.&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;danger&#34;</span><span class="w">
+</span></span></span></code></pre></div>]]></content>
+            
+
+            <id>tag:rcornes.github.io,2023-09-18:2023-09-18T21:21:05-07:00</id>
+
+            
+                
+
+                
+                    
+
+                    <link href="https://rcornes.github.io/LPD_SLP/content/complex-alert/" rel="alternate" type="text/html"/>
+                
+            
+
+            
+
+            
+                <published>2023-09-18T21:21:05-07:00</published>
+            
+
+            
+                <rights type="html"><![CDATA[© Richard Cornes]]></rights>
+            
+
+            
+                <summary type="html"><![CDATA[A complex alert.]]></summary>
+            
+
+            <title type="html"><![CDATA[Complex Alert]]></title>
+            <updated>2023-09-18T21:21:05-07:00</updated>
+        </entry>
+    
+</feed>
